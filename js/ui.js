@@ -235,7 +235,7 @@ function commonTween() {
         })
 
     })
-    $('.slide-up').each(function (e) {
+    $('.slide-up, .sub-title').each(function (e) {
         let text = $(this).wrapInner('<div class="over-text-con"></div>')
         let target = text.find('.over-text-con')
         gsap.set(target, {

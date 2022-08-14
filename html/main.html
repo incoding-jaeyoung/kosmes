@@ -45,7 +45,7 @@
             </div>
             <div class="row">
                 <div class="slider-top">
-                    <h2 class="slide-up">중소기업에 희망을, 벤처기업에 날개를, <br> 청년들에게 일자리와 꿈을</h2>
+                    <h2 class="slide-up">중소기업에 희망을, <br class="mob-view"> 벤처기업에 날개를, <br> 청년들에게 일자리와 꿈을</h2>
                     <div class="slider-con">
                         <button type="button" class="stop"><img src="../img/ico-stop.svg" alt="정지"></button>
                         <button type="button" class="play"><i class="fa-solid fa-play"></i></button>
@@ -92,6 +92,21 @@
                             nextEl: ".swiper-button-next",
                             prevEl: ".swiper-button-prev",
                         },
+                        breakpoints: {
+                            0: {
+                                slidesPerGroup: 1,
+                                spaceBetween: 14,
+                                navigation: false,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    type: "bullets",
+                                },
+                            },
+                            600: {
+                                slidesPerGroup: 3,
+                                spaceBetween: 20,
+                            },
+                        },
                     });
                 </script>
             </div>
@@ -106,7 +121,7 @@
                             <li><button type="button">입찰정보</button></li>
                             <li><button type="button">채용공고</button></li>
                         </ul>
-                        <p><a href="#">전체보기 +</a></p>
+                        <p><a href="#" class="more-text pc-view">전체보기 +</a></p>
                     </div>
                     <div class="notice-list-block">
                         <div class="notice-list up-slide-stagger">
@@ -150,11 +165,12 @@
                                 </a>
                                 <p class="date">2022-07-01</p>
                             </div>
+                            <p class="btn-all mob-view"><a href="#">전체보기 +</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="kosmes-news">
-                    <h3><span>중진공</span>김학도가 간다!</h3>
+                    <h2 class="sub-title"><em>중진공</em>김학도가 간다!</h2>
                     <div class="swiper kosmesSwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -193,6 +209,106 @@
                             },
                         });
                     </script>
+                </div>
+            </div>
+        </div>
+        <div class="banner-block">
+            <div class="row">
+                <div class="banner-head">
+                    <h2 class="sub-title"><em>KOSME </em>배너존</h2>
+                    <a href="#" class="pc-view more-text">전체보기 +</a>
+                </div>
+                <div class="banner-slider">
+                    <div class="swiper bannerSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#" class="image over"><img src="../img/thumb/thumb-05.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="#" class="image over"><img src="../img/thumb/thumb-06.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="#" class="image over"><img src="../img/thumb/thumb-05.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="#" class="image over"><img src="../img/thumb/thumb-06.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="#" class="image over"><img src="../img/thumb/thumb-05.png" alt=""></a></div>
+                            <div class="swiper-slide"><a href="#" class="image over"><img src="../img/thumb/thumb-06.png" alt=""></a></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    
+                </div>
+                <p class="btn-all mob-view"><a href="#">전체보기 +</a></p>
+                <script>
+                    var bannerSwiper = new Swiper(".bannerSwiper", {
+                        speed: 1000,
+                        loop:true,
+                        slidesPerView: "auto",
+                        spaceBetween: 20,
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                        breakpoints: {
+                            0: {
+                                spaceBetween: 14,
+                                navigation: false,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    type: "bullets",
+                                },
+                            },
+                            600: {
+                                spaceBetween: 20,
+                            },
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="community-block">
+            <div class="row">
+                <div class="title-head">
+                    <h2 class="sub-title"><em>#소통하는 </em>중진공</h2>
+                    <ul class="sns-list">
+                        <li><a href="#"><img src="../img/blog.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../img/post.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../img/insta.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../img/facebook.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../img/youtube.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="bbs-list up-slide-stagger">
+                    <div class="bbs-con">
+                        <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                        <p class="img"><a href="#" class="image movie"><img src="../img/thumb/thumb-03.png" alt=""></a></p>
+                        <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘리에이터 되는 법</span></p>
+                    </div>
+                    <div class="bbs-con">
+                        <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                        <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-04.png" alt=""></a></p>
+                        <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
+                    </div>
+                    <div class="bbs-con">
+                        <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                        <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-05.png" alt=""></a></p>
+                        <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work-block">
+            <div class="row">
+                <div class="title-head">
+                    <h2 class="sub-title">주요 지원사업</h2>
+                </div>
+                <div class="work-list">
+                    <ul class="up-slide-stagger">
+                        <li><a href="#"><img src="../img/ico-product-01.svg" alt="">내일채움 공제사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-02.svg" alt="">사업지원 전환사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-03.svg" alt="">무역조정 지원사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-04.svg" alt="">제조중소기업혁신바우처사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-05.svg" alt="">재기지원사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-06.svg" alt="">스마트공장 AS 지원사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-07.svg" alt="">주요기업기술사업화 역량강화사업 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/ico-product-08.svg" alt="">중소기업탄소중립전환지원 <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
