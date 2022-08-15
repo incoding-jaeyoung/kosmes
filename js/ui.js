@@ -30,7 +30,7 @@ function init() {
 		scrollTrigger: {
 			trigger: $('footer'),
 			start: "0% 100%", // 앞 : 객체 , 뒤 : 페이지 전체
-			end: "0% 65%",
+			end: "0% 85%",
 			// markers: true,
 			toggleActions: "play pause  reverse pause",
 			scrub: 1,
@@ -81,12 +81,16 @@ function init() {
         ScrollTrigger.refresh();
         swiper.update()
     })
+    $('.tab-ui-con > *').eq(0).addClass('active')
     $('.tab-ui li button').on('click',function(){
         var indexNum = $('.tab-ui li button').index(this)
         $('.tab-ui li').removeClass('active')
         $('.tab-ui li').eq(indexNum).addClass('active')
-        $('.tab-ui-con > *').removeClass('active')
-        $('.tab-ui-con > *').eq(indexNum).addClass('active')
+        $('.tab-ui-con > *').removeClass('active').hide()
+        $('.tab-ui-con > *').eq(indexNum).css({
+            "opacity":"0",
+            "display":"flex",
+        }).show().animate({opacity:1}).addClass('active')
         
         ScrollTrigger.refresh();
         swiper.update()
