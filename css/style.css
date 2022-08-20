@@ -997,16 +997,15 @@ a.more-text{color: #003994;}
 .location .page-menu{display: flex;}
 .location .page-menu li{margin-left: 2.4rem;}
 .sub-contents .row{padding: 8rem 0.8rem;}
-.box-con{display: flex; border: 1px solid #ddd; margin-top: 1.5rem;}
-.box-con dt{display: flex; align-items: center; justify-content: center; background-color: #F2F6FB; font-size: 1.8rem; font-weight: 500; width: 20rem; border-right: 1px solid #ddd; flex: none;}
-.box-con dd{padding: 2.4rem;}
-.box-con.type-01 {margin-top: 0.8rem;}
-.box-con.type-01 dt{background-color: #E7F8F9;}
+
 .slide-box{margin-top: 2.4rem;}
 .slide-box-head{background: #2F436B; color: #fff; height: 5.4rem; display: flex; justify-content: space-between; align-items: center; font-size: 1.8rem; padding: 0 2.4rem;}
-.slide-box-head i{font-size: 1.2rem;}
-.slide-box-con{background: #FAFAFA; padding: 2.4rem;}
+.slide-box-head i{font-size: 1.2rem; transition: all 0.4s ease; transform: rotateZ(180deg);}
+.slide-box-con{background: #FAFAFA; padding: 2.4rem;  display: none;}
 .slide-box-con *{line-height: 3.2rem;}
+.slide-box.active .slide-box-con{display: block;}
+.slide-box.active i{transform: rotateZ(0);}
+.down-list a{margin-bottom: 1.6rem;}
 @media (max-width: 600px) {
     .sub-visual{height: 16rem; font-size: 2.8rem; background-size: cover !important;}
     .sub-visual:after{content: ""; display: block; width: 100%; height: 100%; background-color: #000; opacity: 0.5; left: 0; top:0; position: absolute;}
@@ -1033,14 +1032,11 @@ a.more-text{color: #003994;}
     .location .page-menu li{margin-left: 0.8rem;}
     .location .page-menu li:last-child{display: none;}
     .sub-contents .row{padding:4rem 0.8rem;}
-    .box-con{display: flex; border: 1px solid #ddd; margin-top: 0rem; flex-direction: column;}
-    .box-con dt{display: flex; align-items: center; justify-content: center; background-color: #F2F6FB; font-size: 1.4rem; font-weight: 500; width: 100%; border-right:none; flex: none; height: 4rem; border-bottom: 1px solid #ddd;}
-    .box-con dd{padding: 1.5rem;}
-    .box-con.type-01 {margin-top: 0.8rem;}
-    .box-con.type-01 dt{background-color: #E7F8F9;}
+    
     .slide-box{margin-top: 2.4rem;}
     .slide-box-head{height:4rem; font-size: 1.4rem; padding: 0 1.2rem;}
     .slide-box-head i{font-size: 1.2rem;}
     .slide-box-con{background: #FAFAFA; padding:1.5rem;}
     .slide-box-con *{line-height: 2.2rem;}
+    .down-list a{margin-bottom: 0.8rem;}
 }

@@ -116,6 +116,9 @@ function init() {
         $(this).parents('dl').removeClass('active')
         return false;
     })
+    $('.slide-box .slide-box-head').on('click',function(){
+        $(this).parent().toggleClass('active')
+    })
     
     
     
