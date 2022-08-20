@@ -11,6 +11,7 @@
 
 
 @media (max-width: 850px) {
+    .fs-18{font-size: 1.4rem;}
     .fs-20{font-size: 1.8rem; font-weight: 400; line-height: 1.5;}
 }
 
@@ -20,7 +21,7 @@
 .fc-yellow{color: #ffe440 !important;}
 .fc-black{color: #000 !important;}
 .fc-red{color: #f50000 !important;}
-.fc-gray{color: #999 !important;}
+.fc-gray{color: #666666 !important;}
 .fc-green{color: #39b549 !important;}
 .fc-violet{color: #91268f !important;}
 .fc-orange{color: #f16621 !important;}
@@ -98,7 +99,7 @@
 .sub-title-01{font-size: 2.8rem; font-weight: 700; background: url(../img/bg-title.svg) no-repeat 0 50%; background-size:0.4rem auto; padding-left: 1.2rem;  margin-bottom: 0.8rem;}
 .sub-title-02{font-size: 2.8rem; font-weight: 700; background: url(../img/bg-title.svg) no-repeat 0 50%; background-size:0.4rem auto; padding-left: 1.2rem;  margin-bottom: 2.4rem; margin-top: 8rem;}
 .sub-title-02:first-of-type{margin-top: 0;}
-.title-blue-20{color: #003994; font-size: 2rem; margin-top: 4rem;}
+.title-blue-20{color: #003994; font-size: 2rem; margin-top: 4rem; margin-bottom: 1.5rem; font-weight: 700;}
 .text{font-size: 1.8rem;}
 .gray-text-block{ background: #FAFAFA; border: 1px solid #ddd; padding: 2.4rem;}
 .bulit-text li{line-height: 3.2rem; font-size: 1.8rem; flex-wrap: wrap; position: relative; padding-left: 1.2rem;}
@@ -117,7 +118,7 @@
     .bulit-text.size-s li{font-size: 1.2rem; }
     .bulit-text.size-s li:before{}
     .flex-bet-m-colum{flex-direction: column; justify-content: flex-start;}
-    .title-blue-20{color: #003994; font-size: 1.8rem;}
+    .title-blue-20{color: #003994; font-size: 1.8rem; margin-bottom: 0.8rem;}
 }
 
 
@@ -139,6 +140,7 @@
 .number-form p.m-full{margin-top: 0 ;}
 .number-form .m-full{margin-left: 1rem;}
 .email-form select{margin-left: 0.5rem;}
+.gray-block{background-color: #ECECEC; padding: 1.5rem; font-size: 1.4rem;}
 
 @media (max-width: 600px) {
     .table-block{border-top: 2px solid #000; display: flex; flex-direction: column;}
@@ -155,6 +157,7 @@
     .email-form div{width: 100%;}
     .email-form div input{width: 100% !important;}
     .email-form select{margin-left: 0rem;}
+    .gray-block{background-color: #ECECEC; padding: 0.8rem; font-size: 1.2rem;}
 }
 
 /* 로그인 */

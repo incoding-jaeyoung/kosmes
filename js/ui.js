@@ -112,6 +112,11 @@ function init() {
         $(this).parents('dl').toggleClass('active')
         return false;
     })
+    $('.location-menu dd').on('mouseleave',function(){
+        $(this).parents('dl').removeClass('active')
+        return false;
+    })
+    
     
     
     
@@ -157,11 +162,13 @@ function init() {
         });
     })
 }
+
 $(document).mouseup(function (e){
     var menuList = $(".location dl");
     if(menuList.has(e.target).length === 0)
     $('.location dl').removeClass('active')
 })
+
 function headerScroll() {
     var didScroll;
     var lastScrollTop = 0;
