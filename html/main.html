@@ -35,6 +35,7 @@
     <aside id="top-aside"></aside>
     <header id="header"></header>
     <div class="nav-area"></div>
+    <div class="full-menu"></div>
     <div class="m-menu"></div>
     <section id="contents">
     <!-- contents -->
@@ -444,7 +445,39 @@
         </div>
     <!-- //contents -->
     </section>
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <div class="site-link">
+            <div class="row">
+                <div class="swiper familySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="../img/ico-company-01.png" alt=""></a></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <script>
+                var familyswiper = new Swiper(".familySwiper", {
+                    slidesPerView: "auto",
+                    spaceBetween: 8,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+                </script>
+            </div>
+        </div>
+        <div class="footer-con"></div>
+    </footer>
 </div>
 <aside class="digital">
     <a href="#">디지털지점</a>
