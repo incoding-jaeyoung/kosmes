@@ -37,7 +37,7 @@ function init() {
 			scrub: 1,
 			invalidateOnRefresh: true,
 		},
-		css:{bottom: '22.5rem'},
+		css:{bottom: '23.5rem'},
 		ease:"none",
 	})
 	$('.family-site dt').on('click',function(){
@@ -100,7 +100,7 @@ function init() {
         }).show().animate({opacity:1}).addClass('active')
         
         ScrollTrigger.refresh();
-        swiper.update()
+ //       swiper.update()
     })
     $('.menu-block dt ').on('click',function(){
         $(this).parent().toggleClass('active')
@@ -119,6 +119,20 @@ function init() {
     $('.slide-box .slide-box-head').on('click',function(){
         $(this).parent().toggleClass('active')
     })
+    $('.accordion-title').on('click',function(){
+        $(this).toggleClass('active')
+    })
+    $('.tab-style-m button').on('click',function(){
+        var tabName = $(this).text()
+        console.log(tabName)
+        $('.tab-style-m dt span').text(tabName)
+        $('.tab-style-m').removeClass('active')
+    })
+    $('.tab-style-m dt').on('click',function(){
+        $(this).parent().toggleClass('active')
+    })
+    
+    
     
     
     

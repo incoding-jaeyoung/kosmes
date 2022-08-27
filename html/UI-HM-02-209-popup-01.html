@@ -1,0 +1,96 @@
+
+<body> 
+    <div class="modal modal-inside" tabindex="-1" aria-hidden="true">
+        <div class="overlay" onclick="closeModal();"><span>닫기</span></div>   
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>중소벤처기업진흥공단 뉴스레터 구독신청</h1>
+                    <button type="button" class="close" onclick="closeModal();"><img src="../img/btn-close.svg" alt=""></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-scroll-con scroller">
+                        <div class="gray-line-block">
+                            <div class="block-head fs-18 bold">개인정보 수집·이용동의</div>
+                            <div class="block-con">
+                                <p class="fs-14">수집ㆍ이용항목 : 성명, 이메일, 전화번호 <br>
+                                    수집ㆍ이용목적 : 중소벤처기업진흥공단 뉴스레터 KOSME 정책ⓔ知 발송 <br>
+                                    보유 및 이용기간 : 1년</p>
+                            </div>
+                        </div>
+                        <p class="mT15">* 위의 개인정보 제공에 대한 동의를 거부할 권리가 있습니다. 그러나 동의를 거부할 경우 중진공 뉴스레터(KOSME정책ⓔ知) 구독 서비스에 제한을 받을 수 있습니다.</p>
+                        <div class="flex flex-bet-m-colum align-center mT8 ">
+                            <p class="bold">위와 같이 개인정보 수집ㆍ이용하는데 동의하십니까?</p>
+                            <p>
+                                <input type="radio" name="agree" id="agree-01"><label for="agree-01">동의</label>
+                                <input type="radio" name="agree" id="agree-02"><label for="agree-02" class="mL15">동의하지않음</label>
+                            </p>
+                        </div>
+                        <p class="title-blue-20">신청자 정보입력</p>
+                        <div class="table-block type-s">
+                            <dl>
+                                <dt>아이디<span class="fc-red">*</span></dt>
+                                <dd>
+                                    <p><input type="text" placeholder=""> </p>
+                                    <p class="form-info fc-red">아래 인증 버튼을 클릭하여 휴대폰 본인 인증을 진행하시면 성명, 전화번호가 입력됩니다</p>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>전화번호<span class="fc-red">*</span></dt>
+                                <dd>
+                                    <div class="flex flex-m-colum">
+                                        <div class="flex align-center number-form wrap">
+                                            <p class="flex align-center">
+                                                <select name="" id="" style="width:9rem;">
+                                                    <option value="">02</option>
+                                                </select>
+                                                <span class="space">-</span>
+                                                <input type="text" placeholder="" style="width:9rem;">
+                                                <span class="space">-</span>
+                                                <input type="text" placeholder="" style="width:9rem;">
+                                            </p>
+                                        </div>
+                                        <p class="m-full mL10-m0"><button type="button" class="btn btn-m btn-black m-full">휴대폰 인증</button></p>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>이메일<span class="fc-red">*</span></dt>
+                                <dd>
+                                    <div class="flex align-center email-form">
+                                        <div class="flex">
+                                            <input type="text" placeholder="" style="width:14rem;">
+                                            <span class="space"> @ </span>
+                                            <input type="text" placeholder="" style="width:14rem;">
+                                        </div>
+                                        <div>
+                                            <select name="" id="" style="width:14rem;" class="m-full">
+                                                <option value="">직접입력</option>
+                                                <option value="">naver.com</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>자동입력방지<span class="fc-red">*</span></dt>
+                                <dd>
+                                    <p>신청 남용 방지를 위해 하단의 문구를 입력하여 주십시오.</p>
+                                    <div class="bot-pass mT8">
+                                        <div class="bot-text">문구노출영역</div>
+                                        <button type="button" class="btn btn-m btn-black m-full">새로고침</button>
+                                        <input type="text" placeholder="" style="width:14rem;" class="m-full  mL10-m0">
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <p class="mT15">( <span class="fc-red"> *</span> ) 표시가 있는 항목은 필수항목으로 반드시 입력하셔야합니다.</p>
+                        <div class="btn-line">
+                            <p class="btn-center"><a href="#" class="btn btn-m btn-blue btn-wide">구독신청</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
