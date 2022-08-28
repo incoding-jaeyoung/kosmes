@@ -73,7 +73,6 @@ hr{height: 1px; background-color: #ddd; display: block; border: none;}
 .flex{display: flex;}
 .just-between{justify-content: space-between;}
 .flex-bet-m-colum{justify-content: space-between;}
-
 .just-center{justify-content:center;}
 .align-center{align-items: center;}
 .align-bottom{align-items: flex-end;}
@@ -86,6 +85,8 @@ hr{height: 1px; background-color: #ddd; display: block; border: none;}
 .btn-line .btn-right{justify-content:flex-end; align-items: center; display: flex; width: 100%;}
 .zoom::after{content: ""; display: block;  position: absolute; right: 0; bottom: 0; z-index: 10;  height: 4rem; width: 4rem; background: url(../img/btn-zoom.svg) no-repeat; display:none;}
 .space-line{display: inline-flex; width: 1px; height: 1.8rem; background-color: #ddd; margin: 0 0.8rem;}
+.under{text-decoration: underline !important;}
+
 @media (max-width: 600px) {
     .flex-bet-m-colum{flex-direction: column; justify-content: flex-start; align-items: flex-start;}
     .flex-m-colum{flex-direction: column;}

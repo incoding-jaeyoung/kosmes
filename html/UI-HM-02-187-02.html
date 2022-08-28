@@ -40,7 +40,7 @@
     <section id="contents">
     <!-- contents -->
         <div class="sub-visual visual-02">
-            <h2>채용비리 신고하기</h2>
+            <h2>기업성장응답센터(규제애로신고)</h2>
         </div>
         <div class="location">
             <div class="row">
@@ -73,7 +73,7 @@
                         </dd>
                     </dl>
                     <dl>
-                        <dt><button type="button">채용비리 신고하기 <i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dt><button type="button">기업성장응답센터(규제애로신고) 신고하기 <i class="fa-solid fa-angle-down"></i></button></dt>
                         <dd>
                             <ul>
                                 <li><a href="#">서브메뉴</a></li>
@@ -96,7 +96,29 @@
         <div class="sub-contents">
             <div class="row">
                 <!-- sub-contents -->
-                <div class="table-block">
+                <div class="gray-line-block">
+                    <div class="block-head bold">개인정보 수집 및 이용 안내</div>
+                    <div class="block-con scroll-block fs-14">
+<pre>1. 개인정보 수집·이용 내역
+- 수집 항목 : 성명, 휴대전화, 이메일 및 그 외 개인이 직접 입력한 내용
+- 수집 목적 : 중소기업 규제애로 신고접수 및 결과회신
+- 보유 기간 : 수집된 정보는 별도의 삭제요청이 없는 한 「공공기록물법 시행령」 에 따라 (준)영구보존 됨
+2. 개인정보 제3자 제공 내역
+- 제공받는자 : 중소벤처기업부 및 접수된 건의 개선을 위한 정부부처·관련기관
+- 제공항목 : 성명, 휴대전화, 이메일 및 그 외 개인이 직접 입력한 내용
+- 제공목적 : 중소기업 규제애로 신고접수 및 결과회신
+- 보유기간 : 수집된 정보는 별도의 삭제요청이 없는 한 「공공기록물법 시행령」 에 따라 (준)영구보존 됨.
+3. 동의를 거부할 권리 및 동의를 거부할 경우의 불이익
+- 귀하는 위 항목의 개인정보 수집·이용 및 제3자 제공에 동의를 거부할 권리가 있습니다.
+- 그러나 동의하지 않을 경우, 건의가 불가능합니다.</pre>
+                    </div>
+                </div>
+                <div class="flex flex-bet-m-colum align-center mT24">
+                    <p class="bold">위와 같이 개인정보를 수집·이용 및 제3자 제공하는데 동의하십니까?</p>
+                    <p><input type="checkbox" id="agree"><label for="agree">개인정보 취급방침에 동의합니다. <span class="fc-red">*</span></label></p>
+                </div>
+                <p class="text-right mT80"><a href="#" class="btn btn-m btn-white">규제애로신고서 다운로드 <img src="../img/ico-down.svg" alt=""></a></p>
+                <div class="table-block mT15">
                     <dl>
                         <dt style="width:26rem ;">성명<span class="fc-red">*</span></dt>
                         <dd>
@@ -110,13 +132,13 @@
                             <div class="flex flex-m-colum">
                                 <div class="flex align-center number-form wrap">
                                     <p class="flex align-center">
-                                        <select name="" id="" style="width:9rem;">
+                                        <select name="" id="" style="width:9rem;" disabled>
                                             <option value="">선택</option>
                                         </select>
                                         <span class="space">-</span>
-                                        <input type="text" placeholder="" style="width:9rem;">
+                                        <input type="text" placeholder="" style="width:9rem;" disabled>
                                         <span class="space">-</span>
-                                        <input type="text" placeholder="" style="width:9rem;">
+                                        <input type="text" placeholder="" style="width:9rem;" disabled>
                                     </p>
                                 </div>
                                 <button type="button" class="btn btn-m btn-black m-full mL10-m0">인증</button>
@@ -161,9 +183,8 @@
                                     <span class="flex">
                                         <button type="button" class="btn btn-m btn-black m-full">찾아보기</button><button type="button" class="btn btn-m btn-white m-full">삭제하기</button>
                                     </span>
-                                    <button type="button" class="btn btn-m btn-white m-full mL10">추가하기 <i class="fa-solid fa-plus"></i></button>
                             </div>
-                            <p class="form-info"><span class="fc-red">*</span>(개당 제한 용량 : 5MB, 최대 5개)</p>
+                            <p class="form-info">삭제 파일이 여러개일 경우 한개의 파일로 압축(용량제한 : 20MB)</p>
                         </dd>
                     </dl>
                     <dl>
