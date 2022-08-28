@@ -44,7 +44,7 @@ input[type=radio]:disabled+label{cursor:default;}
 input[type=checkbox]{width: 2rem; height: 2rem; position: absolute; opacity: 0;}
 input[type=checkbox]+label{display: inline-flex; position: relative; cursor: pointer; align-items: center; vertical-align: middle; font-size: 1.4rem; color: #333333;}
 input[type=checkbox]+label:before{content: ""; display: inline-block; width: 2rem; height: 2rem;  border: solid 1px #ddd; background-color: #fff; cursor: pointer; position: relative; z-index: 1; margin-right: .4rem;  vertical-align: top; box-sizing: border-box; flex: none;}
-input[type=checkbox]:checked+label:before{background: url(../img/ico-checked.svg) no-repeat; border: none;}
+input[type=checkbox]:checked+label:before{background: url(../img/ico-checked.svg) no-repeat; border: none; background-size: 2rem;}
 
 input[type=checkbox]:disabled+label:before{border: solid .1rem #dcdfe2; background-color: #f2f3f5; cursor:default;}
 input[type=checkbox]:disabled+label{cursor:default;}
