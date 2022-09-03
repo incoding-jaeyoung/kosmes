@@ -3,7 +3,6 @@ if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
 }
 gsap.registerPlugin(ScrollTrigger);
-
 // JavaScript Document
 $(document).ready(function () {
     $('#top-aside').load("inc/top-aside.html");
@@ -131,7 +130,13 @@ function init() {
     $('.tab-style-m dt').on('click',function(){
         $(this).parent().toggleClass('active')
     })
-    
+    $('.upfile').on('change',function(){
+        var name = this.value
+        $(this).prev().find('.name').text(name)
+        if(name == ''){
+            $(this).prev().find('.name').text('파일명이 표시됩니다')
+        }
+    })
     
     
     
@@ -565,3 +570,16 @@ function counter() {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 }
+
+$(document).ready(function(){
+    var winWidth = $(window).width()
+    if(winWidth <= 600){
+      $('.zoom img').on('click',function(){
+        $('.sub-contents .row').addClass('active')
+      })
+      new Zooming({
+      }).listen('.zoom img')
+    }
+});
+
+
