@@ -962,7 +962,7 @@ a.more-text{color: #003994;}
 .line-tab .swiper-slide{width: auto;}
 .line-tab .swiper-slide a{display: flex; height: 5rem; align-items: center; font-weight: 700; padding: 0 4.5rem;}
 .line-tab .swiper-slide a.active{color: #003994; border-bottom: 2px solid #003994; position: relative; top: 0.1rem;}
-.line-tab .swiper-slide a.active::after{content: ""; display: block; position: absolute;  background: url(../img/bg-tab-active.svg) no-repeat; width: 1.6rem; height: 0.8rem; bottom: -0.9rem; left: 50%; transform: translateX(-50%);}
+.line-tab .swiper-slide a.active::after{content: ""; display: block; position: absolute;  background: url(../img/bg-tab-active.svg) no-repeat; width: 1.6rem; height: 0.8rem; bottom: -0.9rem; left: 50%; transform: translateX(-50%); background-size: 100% auto;}
 
 .search-form{border: 1px solid #ddd; background: #FAFAFA; display: flex; justify-content: center; padding: 2.4rem;}
 .search-form form{display: flex; justify-content: center;}
