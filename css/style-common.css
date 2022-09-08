@@ -103,7 +103,8 @@ hr{height: 1px; background-color: #ddd; display: block; border: none;}
 .center-align{display: flex; justify-content: center;}
 .center-align > *{margin:0 0.8rem;}
 .scroll{overflow-y: auto;}
-
+.under-tit{font-size: 1.4rem; color: #003994; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.under-tit:after{content: ""; display: block; width:1.6rem; height: 1px; background: #003994;}
 @media (max-width: 600px) {
     .flex-bet-m-colum{flex-direction: column; justify-content: flex-start; align-items: flex-start;}
     .flex-m-colum{flex-direction: column;}

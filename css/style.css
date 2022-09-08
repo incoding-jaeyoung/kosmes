@@ -1318,6 +1318,9 @@ a.more-text{color: #003994;}
 .esg-list dl{margin-top: 1.6rem;}
 .esg-list dl:first-of-type{margin-top: 0rem;}
 .esg-list dl dt{font-weight: 700;}
+.esg-list.size-s .ico{height: 17rem; text-align: center;}
+.esg-list.size-s .con{ display: flex; align-items: center;}
+
 
 .esg-ico{display: flex; justify-content: center;}
 .esg-ico img{width: 20.2rem; margin: 0 3rem;}
@@ -1432,6 +1435,8 @@ a.more-text{color: #003994;}
     .esg-list dl:first-of-type{margin-top: 0rem;}
     .esg-list dl dt{font-weight: 700;}
 
+    .esg-list.size-s .ico{height: auto; padding-top: 1.6rem; padding-bottom: 1.6rem;}
+    .esg-list.size-s .ico br{display: none;}
     .esg-ico{display: flex; justify-content:space-between; align-items: center;}
     .esg-ico img{width: 30%; margin:0;}
 }
