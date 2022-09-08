@@ -956,7 +956,7 @@ a.more-text{color: #003994;}
 .info-step .step.long{padding-left: 1.6rem; padding-right: 1.6rem; align-items:flex-start; padding-bottom: 3rem; text-align: left;}
 .info-step .step.long p{text-align: center;}
 .info-step .head{border-bottom: 1px dashed #ddd; width: 100%; padding-bottom: 2.4rem; margin-bottom: 2.4rem;}
-.info-step .step.long dd{line-height: 100%;}
+.info-step .step.long dd{line-height: 100%; }
 
 .line-tab{display:flex; justify-content: center; margin-bottom: 8rem; border-bottom: 1px solid #ddd;}
 .line-tab .swiper-slide{width: auto;}
