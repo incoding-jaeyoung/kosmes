@@ -151,6 +151,19 @@ function init() {
             $(this).prev().find('.name').text('파일명이 표시됩니다')
         }
     })
+    $('.aside-right li > a').on('click',function(){
+        $(this).parent().siblings('li').find('.sub-menu').removeClass('active')
+        $(this).next().addClass('active')
+    })
+    $('.sub-menu').on('mouseleave',function(){
+        $(this).removeClass('active')
+    })
+    $('.faq-block dl dt').on('click',function(){
+        $(this).parent().siblings('dl').removeClass('active')
+        $(this).parent().addClass('active')
+    })
+    
+    
     
     
     
