@@ -472,11 +472,22 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
 
 .faq-block{border-top: 2px solid #000;}
 .faq-block dl{}
-.faq-block dl dt{ padding: 2.4rem; display: flex; border-bottom: 1px solid #ddd; cursor:pointer;}
+.faq-block dl dt{ padding: 2.4rem; display: flex; border-bottom: 1px solid #ddd; cursor:pointer; align-items:flex-start;}
 .faq-block dl dt *{line-height: 2.6rem;}
+.faq-block dl dt .title {color: #666;}
 .faq-block dl dt .title span{margin-right: 0.5rem;}
-.faq-block dl dt .num{border-right: 1px solid #ddd; display: inline-flex; width: 4.5rem; text-align: center; margin-right: 2.4rem; height: 2.6rem;}
+.faq-block dl dt .num{border-right: 1px solid #ddd; display: inline-flex; width: 4.5rem; justify-content: center;margin-right: 2.4rem; height: 2.6rem;}
 .faq-block dl dt .arrow{margin-left: auto; transition: all 0.4s ease;}
 .faq-block dl dd{background: #FAFAFA; padding: 2.4rem;border-bottom: 1px solid #ddd; display: none;}
 .faq-block dl.active dt .arrow{ transform:rotateZ(180deg);}
 .faq-block dl.active dd{display: block;}
+.faq-block dl dt .title span.nation{color: #000;}
+.faq-block dl.active dt .title span.nation{color: #003994;}
+
+@media (max-width: 600px) {
+    .faq-block dl dt *{line-height: 2rem;}
+    .faq-block dl dt .num{border-right: 1px solid #ddd; display: inline-flex; width:4rem; padding-right: 0.8rem; margin-right:1rem; justify-content: center; height: 2rem; }
+    .faq-block dl dt{ padding: 1.6rem 0.8rem;}
+    .faq-block dl dd{padding: 1.6rem 0.8rem;}
+    .faq-block dl dt .title span.nation{display: block;}
+}

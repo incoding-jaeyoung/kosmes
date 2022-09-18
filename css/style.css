@@ -320,7 +320,7 @@ footer{background-color: #2A2C31; color: #fff;}
 .nav-area .nav-overay{position: fixed; background:#000; opacity: 0.5; top: 0rem; bottom: 0; left: 0; right:0; pointer-events: none;}
 .nav-block{display: flex; width: 100%; position: relative; background-color: #fff; display: none; }
 .nav-block .row:after{content: ""; display: block; position: absolute; height: 100%; width: 100%; background-color: #FAFAFA; z-index: 0; right: 110rem;}
-.nav-block .row{display: flex; position: relative;}
+.nav-block .row{display: flex; position: relative; padding-top: 2.4rem;}
 .nav-block .nav-title{position: relative; z-index: 10; width: 18rem; margin-top: 5rem; flex: none;}
 .nav-block .nav-title h2{font-size: 2.4rem; font-weight: 700; margin-bottom: 4rem;}
 .nav-block .nav-title h2::before{content: ""; display: flex; background: #003994; width: 4rem; height: 0.2rem; margin-bottom: 20px;}
