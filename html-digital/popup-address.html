@@ -1,0 +1,42 @@
+
+<body> 
+    <div class="modal modal-inside" tabindex="-1" aria-hidden="true">
+        <div class="overlay" onclick="closeModal();"><span>닫기</span></div>   
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>직접 주소입력</h1>
+                    <button type="button" class="close" onclick="closeModal();"><img src="../img/btn-close.svg" alt=""></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-scroll-con scroller">
+                        <p class="title-blue-20">신청자 정보입력</p>
+                        <div class="table-block type-s">
+                            <dl>
+                                <dt>주소<span class="fc-red">*</span></dt>
+                                <dd>
+                                    <p><input type="text" placeholder=""> <button type="button" class="btn btn-m btn-black m-full" onclick="openLayer('#popup', 'popup-address.html'); return false;">검색</button></p>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>관할구역<span class="fc-red">*</span></dt>
+                                <dd>
+                                    <p>
+                                        <input type="radio" name="open" id="open-01"><label for="open-01">서울동남부지부</label>
+                                        <input type="radio" name="open" id="open-02"><label for="open-02" class="mL40">서울북부지부</label>
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="btn-line">
+                            <p class="btn-center">
+                                <button type="submit" class="btn btn-l btn-white mR15">취소</button>
+                                <button type="submit" class="btn btn-l btn-blue">확인 <img src="../img/arow_right-w.svg" alt=""></button>
+                            </p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

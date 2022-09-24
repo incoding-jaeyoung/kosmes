@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="중소벤처기업진흥공단" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<meta property="og:image" content="../img/img-og.png">
+<meta property="og:url" content="">
+<meta property="og:description" content="">
+<meta property="og:title" content="중소벤처기업진흥공단">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>중소벤처기업진흥공단</title>
+<link rel="stylesheet" href="../css/style-digital.css" />
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/gsap.min.js"></script>
+<script src="../js/ScrollTrigger.min.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/ScrollToPlugin3.min.js"></script>
+<script src="../js/zoom.js"></script>
+<script src="../js/ui.js"></script>
+</head>
+
+<body> 
+<div class="accessbility"><a href="#contents">본문바로가기</a></div>
+<div id="wrapper">
+    <aside id="top-aside"></aside>
+    <header id="header" class="digi"></header>
+    <div class="nav-area digi"></div>
+    <div class="full-menu digi"></div>
+    <div class="m-menu digi"></div>
+    <section id="contents">
+    <!-- contents -->
+        <div class="location">
+            <div class="row">
+                <div class="location-menu">
+                    <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청<i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <ul class="page-menu">
+                    <li><a href="#"><img src="../img/ico-location-01.svg" alt="공유"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-02.svg" alt="즐겨찾기"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-03.svg" alt="프린트"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="online-step">
+            <div class="row">
+                <h2 class="contents-title">정책자금 온라인 신청</h2>
+                <div class="step-block">
+                    <div class="swiper stepSiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="active">
+                                    <p class="step step-01"></p>
+                                    <dl>
+                                        <dt>STEP 01</dt>
+                                        <dd>신청자금 선택</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-02"></p>
+                                    <dl>
+                                        <dt>STEP 02</dt>
+                                        <dd>신용정보 동의</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-03"></p>
+                                    <dl>
+                                        <dt>STEP 03</dt>
+                                        <dd>사전기업진단</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-04"></p>
+                                    <dl>
+                                        <dt>STEP 04</dt>
+                                        <dd>서류제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-05"></p>
+                                    <dl>
+                                        <dt>STEP 05</dt>
+                                        <dd>체크리스트</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-06"></p>
+                                    <dl>
+                                        <dt>STEP 06</dt>
+                                        <dd>최종신청서 제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            var tabswiper = new Swiper(".stepSiper", {
+                                slidesPerView: "auto",
+                                spaceBetween: 70,
+                                breakpoints: {
+                                    0: {
+                                        spaceBetween: 50,
+                                    },
+                                    600: {
+                                        spaceBetween: 70,
+                                    },
+                                },
+                            });
+                            tabswiper.slideTo(0,0)
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-contents">
+            <div class="row">
+                <ul class="login-step mT0">
+                    <li class="active"><b>01</b>기업정보 확인</li>
+                    <li><b>02</b>신청희망자금 선택</li>
+                    <li><b>03</b>상담일정 선택</li>
+                </ul>
+                <h3 class="sub-title-02 mT60">기업정보</h3>
+                <div class="table-block">
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">회사명<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">사업자번호<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">기업구분<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">(개인)사업자등록일 (법인)설립연월일
+                                <span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%" class="datepicker"> 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">법인전환여부<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">최초개인기업 설립일
+                                <span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">외감기업여부<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">최대주주 동일인여부<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">법인번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <input type="text" placeholder="" style="width:100%;">
+                        </dd>
+                    </dl>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">업종<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">주생산품<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">팩스번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <div class="flex flex-bet-m-colum">
+                                    <div class="flex align-center number-form wrap">
+                                        <p class="flex align-center">
+                                            <select name="" id="" style="width:9rem;">
+                                                <option value="">선택</option>
+                                            </select>
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">전화번호<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <div class="flex flex-bet-m-colum">
+                                    <div class="flex align-center number-form wrap">
+                                        <p class="flex align-center">
+                                            <select name="" id="" style="width:9rem;">
+                                                <option value="">선택</option>
+                                            </select>
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">주소<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="text" placeholder=""> <button type="button" class="btn btn-m btn-black m-full" onclick="openLayer('#popup', 'popup-address.html'); return false;">검색</button></p>
+                            <p><input type="text" placeholder=""> <input type="text" placeholder="" class=" m-full"> </p>
+                            <p class="flex align-top form-info caution-line-01"><img src="../img/ico-caution.svg" alt="">주소를 정확하게 입력하여 주세요.</p>
+                        </dd>
+                    </dl>
+                </div>
+                <h3 class="sub-title-01 mT60">대표자 정보</h3>
+                <div class="flex just-between align-bottom">
+                    <p class="flex align-top mR20 caution-line-01"><img src="../img/ico-caution.svg" alt="">대표자명 변경시 본인인증을 클릭하여 현재 대표자 본인 인증을 하시기 바랍니다.</p>
+                    <p><button type="button" class=" btn btn-m btn-white">추가 <i class="fa-solid fa-plus"></i></button></p>
+                </div>
+                <div class="table-block mT15">
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">대표자 명<span class="fc-red">*</span></dt>
+                            <dd>
+                                <p class="flex flex-m-colum">
+                                    <input type="text" value="" placeholder=""  style="width:100%"> 
+                                    <button type="button" class="btn btn-m btn-black m-full">본인인증</button>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">대표자 이메일<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <h3 class="sub-title-01 mT60">담당자 정보</h3>
+                <div class="flex just-between ">
+                    <p class="flex align-top caution-line-01"><img src="../img/ico-caution.svg" alt="">        해당 연락처로 향후 중진공 사업 진행절차 안내 및 최신정보 안내를 드릴 예정이니 정확하게 입력하여 주시기 바랍니다.</p>
+                    <p><button type="button" class=" btn btn-m btn-white">추가 <i class="fa-solid fa-plus"></i></button></p>
+                </div>
+                <div class="table-block mT15">
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">성명<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">직위<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <input type="text" value="" placeholder=""  style="width:100%"> 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">전화번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <div class="flex flex-bet-m-colum">
+                                    <div class="flex align-center number-form wrap">
+                                        <p class="flex align-center">
+                                            <select name="" id="" style="width:9rem;">
+                                                <option value="">선택</option>
+                                            </select>
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">휴대폰번호<span class="fc-red">*</span></dt>
+                            <dd style="width:100%">
+                                <div class="flex flex-bet-m-colum">
+                                    <div class="flex align-center number-form wrap">
+                                        <p class="flex align-center">
+                                            <select name="" id="" style="width:9rem;">
+                                                <option value="">선택</option>
+                                            </select>
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                            <span class="space">-</span>
+                                            <input type="text" placeholder="" style="width:9rem;">
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">이메일<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center email-form">
+                                <div class="flex">
+                                    <input type="text" placeholder="" style="width:14rem;">
+                                    <span class="space"> @ </span>
+                                    <input type="text" placeholder="" style="width:14rem;">
+                                </div>
+                                <div>
+                                    <select name="" id="" style="width:14rem;" class="m-full">
+                                        <option value="">직접입력</option>
+                                        <option value="">naver.com</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+                <h3 class="sub-title-01 mT60">관할지역 본지부</h3>
+                <p class="flex align-top caution-line-01"><img src="../img/ico-caution.svg" alt="">관할지역본부 예외(사전문의 요망)</p>
+                <p class="mL20">- 설비투자 등의 자금소요가 주사업장 이외의 사업장(공장)에서 발생하는 경우</p>
+                <p class="mL20">- 청년전용창업자금·재해자금 등 지역적 특이성 및 제약 존재시</p>
+                <p class="mL20">- 사업장 이전에 따른 소요자금 신청시(이전예정 지역본(지)부 신청가능)</p>
+                <p class="flex align-top caution-line-01"><img src="../img/ico-caution-red.svg" alt="">중진공 대출 잔액 보유기업은 기존 대출 취급 관할 지역본지부로 신청하시기 바랍니다.</p>
+                <div class="table-block mT15">
+                    <dl>
+                        <dt style="width:20rem ;">관할구역</dt>
+                        <dd>
+                            <p>
+                                <input type="radio" name="open" id="open-01"><label for="open-01">서울동남부지부</label>
+                                <input type="radio" name="open" id="open-02"><label for="open-02" class="mL40">서울북부지부</label>
+                                <button type="button" class="btn btn-m btn-black m-full mL40">관할구역 직접선택</button>
+                            </p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="btn-line">
+                    <p class="btn-center">
+                        <button type="submit" class="btn btn-l btn-white mR15">취소</button>
+                        <button type="submit" class="btn btn-l btn-blue">다음 <img src="../img/arow_right-w.svg" alt=""></button>
+                    </p>    
+                </div>
+                <div class="help-block">
+                    <p><b>도움이 필요하신가요?</b>중소벤처기업공단에서는 빠른 도움을 드리기위해 최선을 다 하고있습니다.</p>
+                    <ul>
+                        <li><a href="#"><img src="../img/btn-quick-01.png" alt="">카카오톡 채팅 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-02.png" alt="">챗봇 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-03.png" alt="">전담콜센터 1811-3655 <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- //contents -->
+    </section>
+    <footer id="footer">
+        <div class="footer-con"></div>
+    </footer>
+</div>
+<div class="page-aside"></div>
+</body>
+</html>

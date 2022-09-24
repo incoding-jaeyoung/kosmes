@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="중소벤처기업진흥공단" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<meta property="og:image" content="../img/img-og.png">
+<meta property="og:url" content="">
+<meta property="og:description" content="">
+<meta property="og:title" content="중소벤처기업진흥공단">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>중소벤처기업진흥공단</title>
+<link rel="stylesheet" href="../css/style-digital.css" />
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/gsap.min.js"></script>
+<script src="../js/ScrollTrigger.min.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/ScrollToPlugin3.min.js"></script>
+<script src="../js/zoom.js"></script>
+<script src="../js/ui.js"></script>
+</head>
+
+<body> 
+<div class="accessbility"><a href="#contents">본문바로가기</a></div>
+<div id="wrapper">
+    <aside id="top-aside"></aside>
+    <header id="header" class="digi"></header>
+    <div class="nav-area digi"></div>
+    <div class="full-menu digi"></div>
+    <div class="m-menu digi"></div>
+    <section id="contents">
+    <!-- contents -->
+        <div class="location">
+            <div class="row">
+                <div class="location-menu">
+                    <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청<i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <ul class="page-menu">
+                    <li><a href="#"><img src="../img/ico-location-01.svg" alt="공유"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-02.svg" alt="즐겨찾기"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-03.svg" alt="프린트"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="online-step">
+            <div class="row">
+                <h2 class="contents-title">정책자금 온라인 신청</h2>
+                <div class="step-block">
+                    <div class="swiper stepSiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" >
+                                    <p class="step step-01"></p>
+                                    <dl>
+                                        <dt>STEP 01</dt>
+                                        <dd>신청자금 선택</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-02"></p>
+                                    <dl>
+                                        <dt>STEP 02</dt>
+                                        <dd>신용정보 동의</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="active">
+                                    <p class="step step-03"></p>
+                                    <dl>
+                                        <dt>STEP 03</dt>
+                                        <dd>사전기업진단</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-04"></p>
+                                    <dl>
+                                        <dt>STEP 04</dt>
+                                        <dd>서류제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-05"></p>
+                                    <dl>
+                                        <dt>STEP 05</dt>
+                                        <dd>체크리스트</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-06"></p>
+                                    <dl>
+                                        <dt>STEP 06</dt>
+                                        <dd>최종신청서 제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            var tabswiper = new Swiper(".stepSiper", {
+                                slidesPerView: "auto",
+                                spaceBetween: 70,
+                                breakpoints: {
+                                    0: {
+                                        spaceBetween: 50,
+                                    },
+                                    600: {
+                                        spaceBetween: 70,
+                                    },
+                                },
+                            });
+                            tabswiper.slideTo(2)
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-contents">
+            <div class="row">
+                <ul class="login-step mT0">
+                    <li><b>01</b>중소기업 판단</li>
+                    <li><b>02</b>창업기업 여부 판단</li>
+                    <li class="active"><b>03</b>융자제한기업 확인</li>
+                </ul>
+                <h3 class="sub-title-02 mT60">융자제한기업 확인</h3>
+                <div class="table-block">
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            휴·폐업중인 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-01" id="radio-01-01"><label for="radio-01-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-01" id="radio-01-02"><label for="radio-01-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            세금을 체납 중인 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-02" id="radio-02-01"><label for="radio-02-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-02" id="radio-02-02"><label for="radio-02-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            한국신용정보원의 ‘일반신용정보관리규약’에 따라 연체, 대위변제·대지금, 부도, 금융질서문란, 회생·파산 등의 정보가 등록되어 있는 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-03" id="radio-03-01"><label for="radio-03-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-03" id="radio-03-02"><label for="radio-03-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            정책자금 융자제외 대상 업종(별표1)을 영위하는 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-04" id="radio-04-01"><label for="radio-04-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-04" id="radio-04-02"><label for="radio-04-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            ‘소상공인 보호 및 지원에 관한 법률’에 따른 소상공인
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-05" id="radio-05-01"><label for="radio-05-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-05" id="radio-05-02"><label for="radio-05-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            최근 3년 이내 정책자금 제3자 부당 개입 등 허위·부정한 방법으로 융자 신청
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-06" id="radio-06-01"><label for="radio-06-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-06" id="radio-06-02"><label for="radio-06-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            최근 1년 이내 약속어음 강축특약 미이행
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-07" id="radio-07-01"><label for="radio-07-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-07" id="radio-07-02"><label for="radio-07-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            최근 3년 이내 중소벤처기업부 소관 정부 연구개발비의 위법 또는 부당한 사용으로 지원금 환수 등 제재조치 된 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-08" id="radio-08-01"><label for="radio-08-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-08" id="radio-08-02"><label for="radio-08-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            임직원의 자금횡령 등 기업 경영과 관련하여 사회적 물의를 일으킨 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-09" id="radio-09-01"><label for="radio-09-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-09" id="radio-09-02"><label for="radio-09-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            업종별 융자제한 부채비율(별표5)을 초과하는 기업 <a href="#" class="btn btn-m btn-white mL10-m0 m-full">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-010" id="radio-010-01"><label for="radio-010-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-010" id="radio-010-02"><label for="radio-010-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            2년 연속 적자기업 중 자기자본 전액 잠식 기업 <a href="#" class="btn btn-m btn-white mL10-m0 m-full">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-011" id="radio-011-01"><label for="radio-011-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-011" id="radio-011-02"><label for="radio-011-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            3년 연속 ‘이자보상배율 1.0 미만’이고 3년 연속 ‘영업활동 현금흐름이 (-)인 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-012" id="radio-012-01"><label for="radio-012-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-012" id="radio-012-02"><label for="radio-012-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            기업심사에서 탈락한 기업으로 6개월이 경과되지 아니한 기업 <a href="#" class="btn btn-m btn-white mL10-m0  m-full">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-013" id="radio-013-01"><label for="radio-013-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-013" id="radio-013-02"><label for="radio-013-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            유가증권시장 상장기업, 코스닥시장 상장기업 (* 단, 코스닥 기술특례상자익업은 상장 후 3년까지 예외)
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-014" id="radio-014-01"><label for="radio-014-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-014" id="radio-014-02"><label for="radio-014-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            ‘자본시장법’에 의한 신용평가회사의 BB등급 이상 기업
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-015" id="radio-015-01"><label for="radio-015-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-015" id="radio-015-02"><label for="radio-015-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            자본총계 200억원 또는 자산총계 700억원 초과 기업<a href="#" class="btn btn-m btn-white mL10-m0 m-full">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-016" id="radio-016-01"><label for="radio-016-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-016" id="radio-016-02"><label for="radio-016-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            정부, 지자체 등의 정책자금 융자, 보증, R&D 보조금 등 지원실적이 최근 5년간 100억원(누적)을 초과하는 기업<a href="#" class="btn btn-m btn-white  mL10-m0 m-full">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-017" id="radio-017-01"><label for="radio-017-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-017" id="radio-017-02"><label for="radio-017-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70% ;">
+                            중진공 정책자금 누적지원 금액이 운전자금 기준으로 25억원을 초과하는 기업
+* 향후 요건 검토 결과 정책자금 융자제한 기업 요건에 해당될 경우, 향후 정책자금 지원이 불가할 수 있음을 확인합니다. <a href="#" class="btn btn-m btn-white mL10-m0 m-full" style="flex:none ;">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-018" id="radio-018-01"><label for="radio-018-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-018" id="radio-018-02"><label for="radio-018-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="no-bg">
+                        <dt style="width:70%;">
+                            최근 5년 이내 정책자금을 3회 이상 지원받은 기업 <a href="#" class="btn btn-m btn-white mL10-m0 m-full">예외사항 확인 <img src="../img/ico-new-window.svg" alt=""></a>
+                        </dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="radio" name="radio-019" id="radio-019-01"><label for="radio-019-01" class="mR40">해당</label>
+                                <input type="radio" name="radio-019" id="radio-019-02"><label for="radio-019-02">해당없음</label>
+                            </p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="btn-line">
+                    <p class="btn-center">
+                        <button type="submit" class="btn btn-l btn-white mR15">이전</button>
+                        <button type="submit" class="btn btn-l btn-blue">다음 <img src="../img/arow_right-w.svg" alt=""></button>
+                    </p>    
+                </div>
+                <div class="help-block">
+                    <p><b>도움이 필요하신가요?</b>중소벤처기업공단에서는 빠른 도움을 드리기위해 최선을 다 하고있습니다.</p>
+                    <ul>
+                        <li><a href="#"><img src="../img/btn-quick-01.png" alt="">카카오톡 채팅 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-02.png" alt="">챗봇 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-03.png" alt="">전담콜센터 1811-3655 <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- //contents -->
+    </section>
+    <footer id="footer">
+        <div class="footer-con"></div>
+    </footer>
+</div>
+<div class="page-aside"></div>
+</body>
+</html>

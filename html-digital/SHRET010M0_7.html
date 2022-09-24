@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="중소벤처기업진흥공단" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<meta property="og:image" content="../img/img-og.png">
+<meta property="og:url" content="">
+<meta property="og:description" content="">
+<meta property="og:title" content="중소벤처기업진흥공단">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>중소벤처기업진흥공단</title>
+<link rel="stylesheet" href="../css/style-digital.css" />
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/gsap.min.js"></script>
+<script src="../js/ScrollTrigger.min.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/ScrollToPlugin3.min.js"></script>
+<script src="../js/zoom.js"></script>
+<script src="../js/ui.js"></script>
+</head>
+
+<body> 
+<div class="accessbility"><a href="#contents">본문바로가기</a></div>
+<div id="wrapper">
+    <aside id="top-aside"></aside>
+    <header id="header" class="digi"></header>
+    <div class="nav-area digi"></div>
+    <div class="full-menu digi"></div>
+    <div class="m-menu digi"></div>
+    <section id="contents">
+    <!-- contents -->
+        <div class="location">
+            <div class="row">
+                <div class="location-menu">
+                    <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청<i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <ul class="page-menu">
+                    <li><a href="#"><img src="../img/ico-location-01.svg" alt="공유"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-02.svg" alt="즐겨찾기"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-03.svg" alt="프린트"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="online-step">
+            <div class="row">
+                <h2 class="contents-title">정책자금 온라인 신청</h2>
+                <div class="step-block">
+                    <div class="swiper stepSiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" >
+                                    <p class="step step-01"></p>
+                                    <dl>
+                                        <dt>STEP 01</dt>
+                                        <dd>신청자금 선택</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-02"></p>
+                                    <dl>
+                                        <dt>STEP 02</dt>
+                                        <dd>신용정보 동의</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="active">
+                                    <p class="step step-03"></p>
+                                    <dl>
+                                        <dt>STEP 03</dt>
+                                        <dd>사전기업진단</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-04"></p>
+                                    <dl>
+                                        <dt>STEP 04</dt>
+                                        <dd>서류제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-05"></p>
+                                    <dl>
+                                        <dt>STEP 05</dt>
+                                        <dd>체크리스트</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-06"></p>
+                                    <dl>
+                                        <dt>STEP 06</dt>
+                                        <dd>최종신청서 제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            var tabswiper = new Swiper(".stepSiper", {
+                                slidesPerView: "auto",
+                                spaceBetween: 70,
+                                breakpoints: {
+                                    0: {
+                                        spaceBetween: 50,
+                                    },
+                                    600: {
+                                        spaceBetween: 70,
+                                    },
+                                },
+                            });
+                            tabswiper.slideTo(2)
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-contents">
+            <div class="row">
+                <ul class="login-step mT0">
+                    <li class="active"><b>01</b>중소기업 판단</li>
+                    <li><b>02</b>창업기업 여부 판단</li>
+                    <li><b>03</b>융자제한기업 확인</li>
+                </ul>
+                <h3 class="sub-title-02 mT60">업종별 종업원수 기준에 따른 소상공인 여부 확인</h3>
+                <div class="table-block mT15">
+                    <dl>
+                        <dt style="width:20rem ;">업종<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex flex-m-colum">
+                                <input type="radio" name="type" id="type-01"><label for="type-01" class="mR40 m-full">제조업</label>
+                                <input type="radio" name="type" id="type-02"><label for="type-02" class="mR40 m-full">서비스업</label>
+                                <input type="radio" name="type" id="type-03"><label for="type-02" class="mR40 m-full">광업/건설업/운수업</label>
+                                <input type="radio" name="type" id="type-04"><label for="type-02" class="mR40 m-full">기타</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">상시 종업원 수<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex align-center flex-m-colum">
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                                <span class="fc-blue m-full fs-14 mL10-m0">*예시 : 2022년의 경우, 2021년 1월 ~ 12월말 종업원 수 합계 / 12</span>
+                            </p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="btn-line mT40">
+                    <p class="btn-center">
+                        <button type="submit" class="btn btn-l btn-black btn-wide ">소상공인 여부 확인</button>
+                    </p>    
+                </div>
+                <div class="fail-block mT60">
+                    <p class="ico"><img src="../img/ico-fail.svg" alt=""></p>
+                    <dl>
+                        <dt class="bold fc-blue">소상공인 여부 확인 결과, (주)뉴벨인은 <span class="fc-red">융자지원불가능</span>으로 확인되셨습니다.</dt>
+                        <dd>소상공인에 해당하는 기업은 소상공인시장진흥공단(www.semas.or.kr)에서 지원하는 정책자금을 신청해주시기 바랍니다. <br>
+                            단, 아래 예외조건에 해당하는 기업은 지원이 가능하므로, 해당사항을 선택 후 자가진단을 진행하시기 바랍니다.</dd>
+                    </dl>
+                </div>
+                <h3 class="sub-title-02">지원대상 예외 확인</h3>
+                <div class="table-block mT15">
+                    <dl>
+                        <dt style="width:20rem ;">중점 지원분야<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex flex-m-colum" style="flex-wrap:wrap ;">
+                                <input type="checkbox" name="cate" id="cate-01"><label for="cate-01" class="mR40 m-full">혁신성장분야</label>
+                                <input type="checkbox" name="cate" id="cate-02"><label for="cate-02" class="mR40 m-full">그린분야</label>
+                                <input type="checkbox" name="cate" id="cate-03"><label for="cate-03" class="mR40 m-full">비대면분야</label>
+                                <input type="checkbox" name="cate" id="cate-04"><label for="cate-04" class="mR40 m-full">뿌리산업</label>
+                                <input type="checkbox" name="cate" id="cate-05"><label for="cate-05" class="mR40 m-full">소재부품장비</label>
+                                <input type="checkbox" name="cate" id="cate-06"><label for="cate-06" class="mR40 m-full">지역특화(주력)사업</label>
+                                <input type="checkbox" name="cate" id="cate-07"><label for="cate-07" class="mR40 m-full">융복합 및 프랜차이즈 산업</label>
+                                <input type="checkbox" name="cate" id="cate-08"><label for="cate-08" class="mR40 m-full">물류산업</label>
+                                <input type="checkbox" name="cate" id="cate-09"><label for="cate-09" class="mR40 m-full">유망소비재 산업</label>
+                                <input type="checkbox" name="cate" id="cate-10"><label for="cate-10" class="mR40 m-full">지식서비스 산업</label>
+                            </p>
+                            <p><a href="#" class="btn btn-m btn-white m-full ">참고자료 (융자공고)<img src="../img/ico-down.svg" alt=""></a></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">매출액(전년도)<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex align-center flex-m-colum">
+                                <input type="text" class="m-full mT0" value="" placeholder="백만원단위로 기입 해 주세요" >
+                                <span class="m-full fs-14 mL10-m0 mR10 pc-view">(백만원)</span>
+                                <a href="#" class="btn btn-m btn-white m-full">업종별 초과 매출액 기준 다운로드<img src="../img/ico-down.svg" alt=""></a>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">사회적 경제기업</dt>
+                        <dd>
+                            <p class="flex flex-m-colum" style="flex-wrap:wrap ;">
+                                <input type="checkbox" name="cate-01" id="cate-01-01"><label for="cate-01-01" class="mR40 m-full">사회적기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-02"><label for="cate-01-02" class="mR40 m-full">예비사회적기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-03"><label for="cate-01-03" class="mR40 m-full">마을기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-04"><label for="cate-01-04" class="mR40 m-full">자활기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-05"><label for="cate-01-05" class="mR40 m-full">협동조합</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">제주특별자치도 소재
+                                해당업종영위 기업<span class="fc-red">*</span></dt>
+                            <dd>
+                                <p class="flex flex-m-colum">
+                                    <input type="radio" name="radio" id="radio-01"><label for="radio-01" class="mR40 m-full">사회적기업</label>
+                                    <input type="radio" name="radio" id="radio-02"><label for="radio-02" class="mR40 m-full">예비사회적기업</label>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">신시장진출지원자금
+                                신청기업<span class="fc-red">*</span></dt>
+                            <dd>
+                                <p class="flex flex-m-colum">
+                                    <input type="radio" name="radio-01" id="radio-01-01"><label for="radio-01-01" class="mR40 m-full">해당</label>
+                                    <input type="radio" name="radio-01" id="radio-01-02"><label for="radio-01-02" class="mR40 m-full">해당없음</label>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="btn-line mT40">
+                    <p class="btn-center">
+                        <button type="submit" class="btn btn-l btn-black btn-wide">지원대상예외 확인</button>
+                    </p>    
+                </div>
+                <div class="gray-line-block mT60">
+                    <div class="block-head fs-18">
+                        <p class="caution-line-01 fc-blue bold"><img src="../img/ico-caution.svg" alt="">정책자금 지원대상 중소기업 범위 해당여부 확인</p>
+                    </div>
+                    <div class="block-con">
+                        <ul class="bulit-text size-s">
+                            <li>중소기업 범위에 해당하지 않는 경우, 신청·접수가 반려 또는 제한될 수 있습니다.</li>
+                            <li>업종별 종업원수 기준에 따른 소상공인은 정책자금 지원 제외 대상에 해당됩니다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-line">
+                    <p class="btn-center">
+                        <button type="submit" class="btn btn-l btn-white mR15">이전</button>
+                        <button type="submit" class="btn btn-l btn-blue">다음 <img src="../img/arow_right-w.svg" alt=""></button>
+                    </p>    
+                </div>
+                <div class="help-block">
+                    <p><b>도움이 필요하신가요?</b>중소벤처기업공단에서는 빠른 도움을 드리기위해 최선을 다 하고있습니다.</p>
+                    <ul>
+                        <li><a href="#"><img src="../img/btn-quick-01.png" alt="">카카오톡 채팅 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-02.png" alt="">챗봇 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-03.png" alt="">전담콜센터 1811-3655 <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- //contents -->
+    </section>
+    <footer id="footer">
+        <div class="footer-con"></div>
+    </footer>
+</div>
+<div class="page-aside"></div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg width="30" height="45" viewBox="0 0 30 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_253_32514)">
+<path d="M28.6418 7.76953H1.35547V43.6298H28.6418V7.76953Z" fill="#003994" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M7.43498 12.5516L6.07812 11.1813V5.50836L7.43498 4.13808H9.321C10.1215 2.50745 12.3332 1.37012 15.0062 1.37012C17.6792 1.37012 19.8909 2.50745 20.6914 4.13808H22.5774L23.9343 5.50836V11.1813L22.5774 12.5516H7.43498Z" fill="white"/>
+<path d="M14.9922 2.74056C17.5566 2.74056 19.6462 3.98752 19.6462 5.50853H22.5634V11.1815H7.43451V5.50853H10.3517C10.3517 3.97381 12.4277 2.74056 15.0057 2.74056H14.9922ZM15.0057 0C12.1564 0 9.78186 1.08252 8.5607 2.76797H7.44808L4.73438 5.50853V11.1815L7.44808 13.922H22.577L25.2907 11.1815V5.50853L22.577 2.76797H21.4644C20.2296 1.08252 17.8551 0 15.0193 0H15.0057Z" fill="#003994"/>
+<path d="M11.5039 17.6357H24.2583" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M5.67188 17.6357H9.0233" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M11.5039 24.103H24.2583" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M5.67188 24.103H9.0233" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M11.5039 30.5571H24.2583" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M5.67188 30.5571H9.0233" stroke="white" stroke-width="2" stroke-linejoin="bevel"/>
+</g>
+<defs>
+<clipPath id="clip0_253_32514">
+<rect width="30" height="45" fill="white"/>
+</clipPath>
+</defs>
+</svg>

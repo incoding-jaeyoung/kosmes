@@ -5,22 +5,25 @@ if ('scrollRestoration' in history) {
 gsap.registerPlugin(ScrollTrigger);
 // JavaScript Document
 $(document).ready(function () {
-    $('#top-aside').load("inc/top-aside.html");
-    $('#header').load("inc/header.html");
-    $('.nav-area').load("inc/nav-area.html");
-    $('.full-menu').load("inc/full-menu.html");
-    $('.m-menu').load("inc/m-menu.html");
-    $('.footer-con').load("inc/footer.html");
-    $('.page-aside').load("inc/page-aside.html");
+    $('#top-aside').load("../html-inc/top-aside.html");
+    $('#header').load("../html-inc/header.html");
+    $('.nav-area').load("../html-inc/nav-area.html");
+    $('.full-menu').load("../html-inc/full-menu.html");
+    $('.m-menu').load("../html-inc/m-menu.html");
+    $('.footer-con').load("../html-inc/footer.html");
+    $('.page-aside').load("../html-inc/page-aside.html");
+
+    $('#header.digi').load("../html-inc-digital/header.html");
+    $('.nav-area.digi').load("../html-inc-digital/nav-area.html");
+    $('.full-menu.digi').load("../html-inc-digital/full-menu.html");
+    $('.m-menu.digi').load("../html-inc-digital/m-menu.html");
 });
 window.onload = function () {
-    $('body').imagesLoaded().done(function (instance) {
-        console.log('image loaded!!')
+    //$('body').imagesLoaded().done(function (instance) {
         commonTween()
         init();
-        // headerScroll();
-        navTrigger()
-    });
+        // navTrigger()
+    ///});
 }
 // 데이트피커
 $(document).ready(function () {
@@ -40,18 +43,35 @@ $(document).ready(function () {
     $('.datepicker').datepicker();
 })
 function init() {
-	gsap.to($(".float"),{
-		scrollTrigger: {
-			trigger: $('footer'),
-			start: "0% 100%", // 앞 : 객체 , 뒤 : 페이지 전체
-			end: "0% 85%",
-			// markers: true,
-			toggleActions: "play pause  reverse pause",
-			scrub: 1,
-			invalidateOnRefresh: true,
-		},
-		css:{bottom: '23.5rem'},
-		ease:"none",
+    ScrollTrigger.matchMedia({
+        "(min-width:601px)": function () {
+            gsap.to($(".float"),{
+                scrollTrigger: {
+                    trigger: $('footer'),
+                    start: "0% 100%", // 앞 : 객체 , 뒤 : 페이지 전체
+                    end: "0% 85%",
+                    // markers: true,
+                    toggleActions: "play pause  reverse pause",
+                    scrub: 1,
+                    invalidateOnRefresh: true,
+                },
+                css:{bottom: '30rem'},
+                ease:"none",
+            })
+        },
+        "(max-width:600px)": function () {
+            
+        },
+    })
+    $('.float dt button').on('click',function(){
+		$('.float').toggleClass('active')
+        $('.float p').removeClass('active')
+        $('.float.active dl dd').removeClass('over')
+        
+	})
+    $('.float .call').on('click',function(){
+		$(this).next().toggleClass('active')
+        $('.float.active dl dd').addClass('over')
 	})
 	$('.family-site dt').on('click',function(){
 		$('.family-site').toggleClass('active')
@@ -111,9 +131,7 @@ function init() {
             "opacity":"0",
             "display":"flex",
         }).show().animate({opacity:1}).addClass('active')
-        
         ScrollTrigger.refresh();
- //       swiper.update()
     })
     $('.menu-block dt ').on('click',function(){
         $(this).parent().toggleClass('active')
@@ -162,13 +180,22 @@ function init() {
         $(this).parent().siblings('dl').removeClass('active')
         $(this).parent().addClass('active')
     })
-    
-    
-    
-    
-    
-    
-    
+    $('.time-select button').on('click',function(){
+        $('.time-select button').removeClass('active')
+        $(this).toggleClass('active')
+    })
+    $('.btn-active').on('click',function(){
+        $('.time-select button').removeClass('active')
+        $(this).toggleClass('active')
+    })
+    $('.active-toggle').on('click',function(){
+        $(this).toggleClass('active')
+    })
+    $('.accodian').each(function(){
+        $(this).children().eq(0).on('click',function(){
+            $(this).parent().toggleClass('active')
+        })
+    })
     ScrollTrigger.matchMedia({
         "(min-width:851px)": function () {
             var ran = gsap.timeline ()
@@ -495,22 +522,6 @@ function commonTween() {
     })
 
 }
-
-function mobileProxy() {
-    ScrollTrigger.matchMedia({
-        "(min-width:769px)": function () {
-            //pc
-        },
-        "(max-width:768px)": function () {
-            
-
-        },
-
-    })
-}
-
-
-
 
 
 function navTrigger() {

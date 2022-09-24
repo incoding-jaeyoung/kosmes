@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="중소벤처기업진흥공단" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<meta property="og:image" content="../img/img-og.png">
+<meta property="og:url" content="">
+<meta property="og:description" content="">
+<meta property="og:title" content="중소벤처기업진흥공단">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>중소벤처기업진흥공단</title>
+<link rel="stylesheet" href="../css/style-digital.css" />
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/gsap.min.js"></script>
+<script src="../js/ScrollTrigger.min.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/ScrollToPlugin3.min.js"></script>
+<script src="../js/zoom.js"></script>
+<script src="../js/ui.js"></script>
+</head>
+
+<body> 
+<div class="accessbility"><a href="#contents">본문바로가기</a></div>
+<div id="wrapper">
+    <aside id="top-aside"></aside>
+    <header id="header" class="digi"></header>
+    <div class="nav-area digi"></div>
+    <div class="full-menu digi"></div>
+    <div class="m-menu digi"></div>
+    <section id="contents">
+    <!-- contents -->
+        <div class="location">
+            <div class="row">
+                <div class="location-menu">
+                    <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><button type="button">정책자금 온라인 신청<i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <ul class="page-menu">
+                    <li><a href="#"><img src="../img/ico-location-01.svg" alt="공유"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-02.svg" alt="즐겨찾기"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-03.svg" alt="프린트"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="online-step">
+            <div class="row">
+                <h2 class="contents-title">정책자금 온라인 신청</h2>
+                <div class="step-block">
+                    <div class="swiper stepSiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" >
+                                    <p class="step step-01"></p>
+                                    <dl>
+                                        <dt>STEP 01</dt>
+                                        <dd>신청자금 선택</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-02"></p>
+                                    <dl>
+                                        <dt>STEP 02</dt>
+                                        <dd>신용정보 동의</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-03"></p>
+                                    <dl>
+                                        <dt>STEP 03</dt>
+                                        <dd>사전기업진단</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-04"></p>
+                                    <dl>
+                                        <dt>STEP 04</dt>
+                                        <dd>서류제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <p class="step step-05"></p>
+                                    <dl>
+                                        <dt>STEP 05</dt>
+                                        <dd>체크리스트</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="active">
+                                    <p class="step step-06"></p>
+                                    <dl>
+                                        <dt>STEP 06</dt>
+                                        <dd>최종신청서 제출</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            var tabswiper = new Swiper(".stepSiper", {
+                                slidesPerView: "auto",
+                                spaceBetween: 70,
+                                breakpoints: {
+                                    0: {
+                                        spaceBetween: 50,
+                                    },
+                                    600: {
+                                        spaceBetween: 70,
+                                    },
+                                },
+                            });
+                            tabswiper.slideTo(5)
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-contents">
+            <div class="row">
+                <h3 class="sub-title-02">기업정보</h3>
+                <div class="table-block">
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">회사명<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">사업자번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">기업구분<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">(개인)사업자등록일(법인)설립연월일<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">법인전환여부<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">최초개인기업 설립일<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">외감기업여부<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">최대주주 동일인여주<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">회사명<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">사업자번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">법인번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <input type="text" class="m-full mT0" value="" placeholder="" >
+                        </dd>
+                    </dl>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">업종<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">주생산품<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">팩스번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">전화번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <div class="flex align-center number-form wrap">
+                                    <p class="flex align-center">
+                                        <select name="" id="" style="width:12rem;">
+                                            <option value="">02 서울</option>
+                                        </select>
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                    </p>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">주소<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="text" placeholder=""> <button type="button" class="btn btn-m btn-black m-full">검색</button></p>
+                            <p><input type="text" placeholder=""> <input type="text" placeholder="" class=" m-full"> </p>
+                            <p class="caution-line-01 form-info"><img src="../img/ico-caution.svg" alt="">주소를 정확하게 입력하여 주세요.</p>
+                        </dd>
+                    </dl>
+                </div>
+                <h3 class="sub-title-02">담당자 정보</h3>
+                <p class="caution-line-01"><img src="../img/ico-caution.svg" alt="">해당 연락처로 향후 중진공 사업 진행절차 안내 및 최신정보 안내를 드릴 예정이니 정확하게 입력하여 주시기 바랍니다.</p>
+                <div class="table-block mT15">
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">성명<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">직위<span class="fc-red">*</span></dt>
+                            <dd>
+                                <input type="text" class="m-full mT0" value="" placeholder="" >
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">전화번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <div class="flex align-center number-form wrap">
+                                    <p class="flex align-center">
+                                        <select name="" id="" style="width:12rem;">
+                                            <option value="">02 서울</option>
+                                        </select>
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                    </p>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">휴대폰번호<span class="fc-red">*</span></dt>
+                            <dd>
+                                <div class="flex align-center number-form wrap">
+                                    <p class="flex align-center">
+                                        <select name="" id="" style="width:12rem;">
+                                            <option value="">010</option>
+                                        </select>
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                    </p>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">이메일<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center email-form">
+                                <div class="flex">
+                                    <input type="text" placeholder="" style="width:24rem;">
+                                    <span class="space"> @ </span>
+                                    <input type="text" placeholder="" style="width:24rem;">
+                                </div>
+                                <div>
+                                    <select name="" id="" style="width:24rem;" class="m-full">
+                                        <option value="">직접입력</option>
+                                        <option value="">naver.com</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+                <h3 class="sub-title-02">관할지역 본지부</h3>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:20rem ;">관할구역<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex align-center flex-m-colum">
+                                <input type="radio" name="type" id="type-01"><label for="type-01" class="mR40 m-full">서울동남부지부</label>
+                                <input type="radio" name="type" id="type-02"><label for="type-02" class="mR40 m-full">서울북부지부</label>
+                                <button type="button" class="btn btn-m btn-black m-full">관할구역 직접선택</button>
+                            </p>
+                        </dd>
+                    </dl>
+                    
+                </div>
+                <h3 class="sub-title-02">지원대상 예외 확인</h3>
+                <div class="table-block mT15">
+                    <dl>
+                        <dt style="width:20rem ;">중점 지원분야<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex flex-m-colum" style="flex-wrap:wrap ;">
+                                <input type="checkbox" name="cate" id="cate-01"><label for="cate-01" class="mR40 m-full">혁신성장분야</label>
+                                <input type="checkbox" name="cate" id="cate-02"><label for="cate-02" class="mR40 m-full">그린분야</label>
+                                <input type="checkbox" name="cate" id="cate-03"><label for="cate-03" class="mR40 m-full">비대면분야</label>
+                                <input type="checkbox" name="cate" id="cate-04"><label for="cate-04" class="mR40 m-full">뿌리산업</label>
+                                <input type="checkbox" name="cate" id="cate-05"><label for="cate-05" class="mR40 m-full">소재부품장비</label>
+                                <input type="checkbox" name="cate" id="cate-06"><label for="cate-06" class="mR40 m-full">지역특화(주력)사업</label>
+                                <input type="checkbox" name="cate" id="cate-07"><label for="cate-07" class="mR40 m-full">융복합 및 프랜차이즈 산업</label>
+                                <input type="checkbox" name="cate" id="cate-08"><label for="cate-08" class="mR40 m-full">물류산업</label>
+                                <input type="checkbox" name="cate" id="cate-09"><label for="cate-09" class="mR40 m-full">유망소비재 산업</label>
+                                <input type="checkbox" name="cate" id="cate-10"><label for="cate-10" class="mR40 m-full">지식서비스 산업</label>
+                            </p>
+                            <p><a href="#" class="btn btn-m btn-white m-full ">참고자료 (융자공고)<img src="../img/ico-down.svg" alt=""></a></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">매출액(전년도)<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p class="flex align-center flex-m-colum">
+                                <input type="text" class="m-full mT0" value="" placeholder="백만원단위로 기입 해 주세요" >
+                                <span class="m-full fs-14 mL10-m0 mR10 pc-view">(백만원)</span>
+                                <a href="#" class="btn btn-m btn-white m-full">업종별 초과 매출액 기준 다운로드<img src="../img/ico-down.svg" alt=""></a>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">사회적 경제기업</dt>
+                        <dd>
+                            <p class="flex flex-m-colum" style="flex-wrap:wrap ;">
+                                <input type="checkbox" name="cate-01" id="cate-01-01"><label for="cate-01-01" class="mR40 m-full">사회적기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-02"><label for="cate-01-02" class="mR40 m-full">예비사회적기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-03"><label for="cate-01-03" class="mR40 m-full">마을기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-04"><label for="cate-01-04" class="mR40 m-full">자활기업</label>
+                                <input type="checkbox" name="cate-01" id="cate-01-05"><label for="cate-01-05" class="mR40 m-full">협동조합</label>
+                            </p>
+                        </dd>
+                    </dl>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">제주특별자치도 소재
+                                해당업종영위 기업<span class="fc-red">*</span></dt>
+                            <dd>
+                                <p class="flex flex-m-colum">
+                                    <input type="radio" name="radio" id="radio-01"><label for="radio-01" class="mR40 m-full">사회적기업</label>
+                                    <input type="radio" name="radio" id="radio-02"><label for="radio-02" class="mR40 m-full">예비사회적기업</label>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">신시장진출지원자금
+                                신청기업<span class="fc-red">*</span></dt>
+                            <dd>
+                                <p class="flex flex-m-colum">
+                                    <input type="radio" name="radio-01" id="radio-01-01"><label for="radio-01-01" class="mR40 m-full">해당</label>
+                                    <input type="radio" name="radio-01" id="radio-01-02"><label for="radio-01-02" class="mR40 m-full">해당없음</label>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <h3 class="sub-title-02">제출서류</h3>
+                <div class="bbs_ListA mT15">
+                    <table>
+                        <caption>
+                            <span>제출서류</span>
+                        </caption>
+                        <colgroup>
+                            <col style="width:15%;">
+                            <col style="width:auto;">
+                            <col style="width:12%;">
+                            <col style="width:15%;"></colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">등록구분</th>
+                                <th scope="col">서류명</th>
+                                <th scope="col">생성일자</th>
+                                <th scope="col">보기</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>전자서식</td>
+                                <td class="bbs_tit">신용정보동의서</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>스크래핑</td>
+                                <td class="bbs_tit">사업자등록증명원</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>전자서식</td>
+                                <td class="bbs_tit">대표자신분증(진위확인)</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>직접제출</td>
+                                <td class="bbs_tit">국세납세증명서</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>스크래핑</td>
+                                <td class="bbs_tit">지방세 잡세 증명서</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>외부연계</td>
+                                <td class="bbs_tit">2021년 재무제표</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>외부연계</td>
+                                <td class="bbs_tit">2020년 재무제표</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>외부연계</td>
+                                <td class="bbs_tit">2019년 재무제표</td>
+                                <td>2022-10-10</td>
+                                <td><a href="#" class="btn btn-s btn-white">문서보기<img src="../img/ico-file-doc.svg" alt=""></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <h3 class="sub-title-02">체크리스트</h3>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:20rem ;">고용지표</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-01"><label for="type-01">3년 연속 일자리 증가 등 일자리 창출 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-02"><label for="type-02">내일채움공제 가입 등 일자리 유지 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-03"><label for="type-03">성과공유 등 인재육성 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-04"><label for="type-04">채용계획기업(6개월 이내)</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">기술지표 <br>
+                            (양산 후 3년 이내)</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">중기부 등 정부 또는 지자체 출연 연구개발사업 참여 및 성공한 기술 보유</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">등록된 특허, 실용신안, 저작권 등 지적재산권 보유</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">기업부설연구소, 연구개발전담부서 보유</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">기술개발실적 보유</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">양산 3년 이내 제품 개발실적 보유</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">신기술(NET, NEP) 인증</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">Inno-Biz 인증</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">녹색기술인증</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">지식재산경영인증기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">벤처기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">뿌리기술전문기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">매출액 대비 연구개발비중이 5% 이상</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">경영지표</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">Main-Biz 인증</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">정부지정 우수 프랜차이즈</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">우수 물류 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">인재육성형 중소기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">농어촌 사회공헌 인증</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">명문장수기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">가족친화인증기업 지정</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">수출유망중소기업 지정</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">매출액 영업이익률이 동종업계 평균영업이익률의 2개 이상</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">기업공개</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">1년 내 코스닥 상장예정 또는 코넥스 상장기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">중기부 등 정부 또는 지자체 출연 연구개발사업 참여 및 성공한 기술 보유</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">수출실적</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">최근 1년간 수출실적(간접포함) 보유</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">그린기술</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">오염물질 저감, 저탄소, 에너지 효율화, 환경오염방지 설비 등 도입</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">탄소중립형 스마트공장 지원사업 협약</label> <img src="../img/ico-caution.svg" class="mL10" alt=""></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">원부자재 등을 친환경 소재로 전환</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">탄소중립 경영혁신 컨설팅 선정</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">스마트화</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">스마트공장 보급사업 등 참여</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">생산효율화를 위한 자동화 시설 도입</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">재기지원</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">사업전환 계획 승인기업(승인일로부터 5년 내)</label><img src="../img/ico-caution.svg" class="mL10" alt=""></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">사업전환 계획기업(업력 3년, 종업원 5인 이상)</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">구조개선 전용자금 요건 해당기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">무역조정지원기업 지정(지정일로부터 3년 내)</label></p>
+                                <p style="width:100%;" class="m-full"><input type="checkbox" name="" id=""><label for="">폐업한 개인기업 또는 법인기업 운영경험 보유(단, 음식숙박업,5인미만 소매업 등은 제외)</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">6개월 이내 경영애로 피해 발생기업</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">정책우대</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">소부장 강소기업 100·스타트업100·경졍력위원회 추천기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">아기유니콘 200</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">지역혁신 선도기업 선정</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">BIG3 혁신성장 지원기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">글로벌 강소기업</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">창업준비</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">중기부 기술창업활성화 지원사업(청년창업사관학교 등) 우수기술 선정기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">중소벤처창업경진대회 또는 정보통신벤처창업경진대회 수상(2년 내)</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+                <h3 class="sub-title-02">추가정보</h3>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:20rem ;">3년 연속 일자리 
+                            증가 등
+                            일자리 창출 기업</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-01"><label for="type-01">3년 연속 일자리 증가 등 일자리 창출 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-02"><label for="type-02">기업인력애로센터를 통한 인력 채용기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-03"><label for="type-03">최근 1년 이내 청년 근로자 고용기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-04"><label for="type-04">청년 근로자 30% 이상 고용기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-05"><label for="type-05">청년 추가고용 장려금 지원사업 참여기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="type" id="type-06"><label for="type-06">청년채용 특별장려금 지원기업</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">내일채움공제 가입 등 <br>
+                            일자리 유지 기업</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">내일채움공제 가입 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">청년 내일채움공제 가입 기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">좋은 일자리  강소기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">청년친화 강소기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">일자리 안정자금 수급기업</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">성과공유 등 <br>
+                            인재육성 기업</dt>
+                        <dd>
+                            <div class="flex flex-m-colum wrap">
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">성과공유기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">중소기업 계약학과 참여기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">중소기업 특성화고 인력양성사업 참여기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">선취업후학습 우수 인증기업</label></p>
+                                <p style="width:50%;" class="m-full"><input type="checkbox" name="" id=""><label for="">시도교육청 추천 우수 선도기업</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">채용계획기업</dt>
+                        <dd>
+                            <div class="flex flex-m-colum">
+                                <div class="flex flex-m-colum center-left wrap m-full" style="width:50%;">
+                                    <span>채용예정인원</span>
+                                    <input type="text" class="m-full mT0 mL10-m0" value="" placeholder="" style="width:30rem;">
+                                </div>
+                                <div class="flex flex-m-colum center-left wrap m-full" style="width:50%;">
+                                    <span>채용공고</span>
+                                    <input type="text" class="m-full mT0 mL10-m0" value="" placeholder="" style="width:30rem;">
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">특허, 실용신안</dt>
+                        <dd>
+                            <div class="patent">
+                                <div>
+                                    <input type="radio" name="" id=""><label for="">특허, 실용신안</label>
+                                    <input type="radio" name="" id=""><label for="" class="mL40">저작권</label>
+                                </div>
+                                <div>
+                                    <span>등록 번호</span>
+                                    <input type="text" class="m-full mT0 mL10-m0" value="" placeholder="" style="width:100%;">
+                                </div>
+                                <div>
+                                    <span>유효기간</span>
+                                    <input type="text" value=""  style="width:100%;" class="datepicker">
+                                </div>
+                            </div>
+                            <div class="patent">
+                                <div>
+                                    <input type="radio" name="" id=""><label for="">특허, 실용신안</label>
+                                    <input type="radio" name="" id=""><label for="" class="mL40">저작권</label>
+                                </div>
+                                <div>
+                                    <span>저작물 명칭</span>
+                                    <input type="text" class="m-full mT0 mL10-m0" value="" placeholder="" style="width:100%;">
+                                </div>
+                                <div>
+                                    <span>등록 연월일</span>
+                                    <input type="text" value=""  style="width:100%;" class="datepicker">
+                                </div>
+                            </div>
+                            <div class="patent">
+                                <div>
+                                    <input type="radio" name="" id=""><label for="">특허, 실용신안</label>
+                                    <input type="radio" name="" id=""><label for="" class="mL40">저작권</label>
+                                </div>
+                                <div>
+                                    <span>등록 번호</span>
+                                    <input type="text" class="m-full mT0 mL10-m0" value="" placeholder="" style="width:100%;">
+                                </div>
+                                <div>
+                                    <span>유효기간</span>
+                                    <input type="text" value=""  style="width:100%;" class="datepicker">
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">기술개발 실적보유 <br>
+                            (제품양산 전 또는 
+                            3년 이내)</dt>
+                        <dd>
+                            <p class="caution-line-01 form-info"><img src="../img/ico-caution.svg" alt="">제품 포트폴리오 또는 사업계획서를 제출해주세요.</p>
+                            <p>중소기업 디자인 포트폴리오.pdf</p>
+                        </dd>
+                    </dl>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">Inno-Biz 인증</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">신기술(NFT,NEP)인증</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">지식재산경영인증기업</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">녹색기술인증</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">뿌리기술전문기업</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">벤처기업</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">Main-Biz 인증</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">정부지정 
+                                우수 프랜차이즈</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">우수 물류기업</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">명문장수기업</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                    </div>
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">가족친화인증기업</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:20rem ;">수출실적 입력(USD)</dt>
+                            <dd>00-00-0000</dd>
+                        </dl>
+                    </div>
+                    <dl>
+                        <dt style="width:20rem ;">구조개선전용자금
+                            요건 해당기업</dt>
+                        <dd>
+                            <div class="">
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">은행권 추천 경영애로 기업 중 아래 중 1가지 해당되는 기업 </label></p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">중소기업 계약학과 참여기업</label></p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">정책금융기관 (중진공, 신보, 기보)이 지정한 부실징후기업</label></p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">‘채무자 희생 및 파산에 관한 법률’에 따라 회생계획인가 및 회생절차종결 후 3년 이내 기업으로 회생계획을 정상 이행중인 경우</label></p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">채권은행협의회 운영협약 또는 기업구조조정 촉진법에 의한 워크아웃 추진기업으로 워크아웃계획을 정상 이행중인 경우</label></p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">‘채무자 희생 및 파산에 관한 법률’에 따라 회생계획인가 및 회생절차종결 후 3년 이내 기업으로 회생계획을 정상 이행중인 경우</label></p>
+                                <p class="caution-line-01 form-info mL30"><img src="../img/ico-caution.svg" alt="">회생인가 또는 종결 당시 법원에서 승인한 회생계획</p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">진로제시 컨설팅 겨로가 ‘구조개선’ 대상으로 판정된 기업</label></p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">아래 사항 중 하나에 해당되어 한국자산관리고사(캠코)에서 금융지원을 추천한 기업</label></p>
+                                <p class="caution-line-01 form-info mL30"><img src="../img/ico-caution.svg" alt="">패키지형 회생기업 금융지원 참여기업
+                                    Sales & LeaseBack 참여(선정)기업
+                                    국세 물납 법인</p>
+                                <p class="m-full"><input type="checkbox" name="" id=""><label for="">아래 사항 중 하나에 해당되어 한국자산관리공사(캠코)에서 금융지원을 추천한 기업</label></p>
+                                <p class="caution-line-01 form-info mL30"><img src="../img/ico-caution.svg" alt=""><선제적 자율구조개선 프로그램 개요> <br></p>
+                                <p class="caution-line-01 form-info mL30">
+                                    중진공 및 협력은행 대출금 잔액을 보유한 부실징후기업을 대상으로 신규대출, 만기연장, 금리인하 등 협력은행과 연계한 금융지원 <br>
+                                    상담접수 -> 진단·평가 -> 경영개선계획 수립 -> 지원방식 결정 -> 금융지원</p>
+                                    
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">중기부 기술창업 활성화
+                            지원사업</dt>
+                        <dd>
+                            <p class="caution-line-01 form-info"><img src="../img/ico-caution.svg" alt="">중기부 기술창업활성화 지원사업(청년창업사관학교 등) 우수기술 선정기업 증빙 제출</p>
+                            <p>중소기업 기술창업활성화 지원사업 증빙자료.pdf</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:20rem ;">중소벤처창업경진대회 
+                            또는 정보통신벤처창업
+                            경진대회 수상</dt>
+                        <dd>
+                            <p class="caution-line-01 form-info"><img src="../img/ico-caution.svg" alt="">중소벤처창업경진대회 또는 정보통신벤처창업경진대회 수상(2년 내) 증빙 제출</p>
+                            <p>경진대회 수상 증빙자료.pdf</p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="gray-line-block mT60">
+                    <div class="block-head fs-18">
+                        <p class="caution-line-01 fc-blue"><img src="../img/ico-caution.svg" alt="">이후 절차 및 유의사항 안내</p>
+                    </div>
+                    <div class="block-con">
+                        <ul class="bulit-text size-s">
+                            <li>정책자금 온라인신청시스템을 통한 융자신청은 정식접수가 아닌 가접수 상태입니다. 정식접수 여부는 등록하신 휴대전화 또는 이메일 등을 통해 별도 안내됩니다.</li>
+                            <li>신청서가 정식 접수되면 현장실태조사를 통한 기업평가 절차를 거쳐 평가결과 일정 기업평가등급 또는 일정기준 이상인 기업을 대상으로 융자여부를 결정합니다.</li>
+                            <li class="fc-red">정책자금 신청시 입력한 기업정보가 사실과 다른 경우 <span class="bold under">정책우선도</span> 평가에서 불이익을 받을 수 있으며, 향후 융자진행이 불가할 수 있습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-line">
+                    <p class="btn-center">
+                        <button type="submit" class="btn btn-l btn-white mR15">이전</button>
+                        <button type="submit" class="btn btn-l btn-blue">동의 및 제출 <img src="../img/arow_right-w.svg" alt=""></button>
+                    </p>    
+                </div>
+                <div class="help-block">
+                    <p><b>도움이 필요하신가요?</b>중소벤처기업공단에서는 빠른 도움을 드리기위해 최선을 다 하고있습니다.</p>
+                    <ul>
+                        <li><a href="#"><img src="../img/btn-quick-01.png" alt="">카카오톡 채팅 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-02.png" alt="">챗봇 상담 바로가기 <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a href="#"><img src="../img/btn-quick-03.png" alt="">전담콜센터 1811-3655 <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- //contents -->
+    </section>
+    <footer id="footer">
+        <div class="footer-con"></div>
+    </footer>
+</div>
+<div class="page-aside"></div>
+</body>
+</html>
