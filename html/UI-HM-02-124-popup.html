@@ -1,0 +1,66 @@
+
+<body> 
+    <div class="modal modal-inside" tabindex="-1" aria-hidden="true">
+        <div class="overlay" onclick="closeModal();"><span>닫기</span></div>   
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>표준산업분류 검색</h1>
+                    <button type="button" class="close" onclick="closeModal();"><img src="../img/btn-close.svg" alt=""></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-scroll-con scroller">
+                        <p class="title-blue-20 mT0">표준산업분류 검색</p>
+                        <ul class="bulit-text fs-14">
+                            <li class=" fs-14">산업분류코드에서 품목을 찾습니다.</li>
+                            <li class=" fs-14">검색기준은 품목명입니다.</li>
+                            <li class=" fs-14">검색어를 입력하여 주십시오.</li>
+                            <li class=" fs-14">해당되는 산업품목코드가 없는 경우 통계청의 <span class="fc-blue">산업분류 검색</span>을 참조하시기 바랍니다.</li>
+                        </ul>
+                        <div class="flex wrap mT15">
+                            <select name="" id="" style="width:19rem ;"  class="m-full">
+                                <option value="">품목</option>
+                            </select>
+                            <input type="text" style="width:42rem ;" class="m-full mL10-m0">
+                            <button type="button" class="btn btn-m btn-blue m-full mL10-m0">검색</button>
+                        </div>
+                        <table summary="" class="table-default mT15">
+                            <caption>중소벤처기업진흥공단 지역본(지)부 연락처</caption>
+                            <colgroup>
+                                <col style="width:30%;">
+                                <col style="width:auto">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>코드</th>
+                                    <th>이름</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>22240_09</td>
+                                    <td>기계장비 조립용 플라스틱제품 제조업</td>
+                                </tr>
+                                <tr>
+                                    <td>29180_09</td>
+                                    <td>사무용 기계 및 장비 제조업</td>
+                                </tr>
+                                <tr>
+                                    <td>29199_09</td>
+                                    <td>그외 기타 일반목적용 기계 제조업</td>
+                                </tr>
+                                <tr>
+                                    <td>29210_09</td>
+                                    <td>농업 및 임업용 기계 제조업</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="btn-line">
+                            <p class="btn-center"><a href="#" class="btn btn-m btn-blue">닫기</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

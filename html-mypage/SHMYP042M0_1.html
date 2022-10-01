@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="중소벤처기업진흥공단" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<meta property="og:image" content="../img/img-og.png">
+<meta property="og:url" content="">
+<meta property="og:description" content="">
+<meta property="og:title" content="중소벤처기업진흥공단">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>중소벤처기업진흥공단</title>
+<link rel="stylesheet" href="../css/style-mypage.css" />
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/gsap.min.js"></script>
+<script src="../js/ScrollTrigger.min.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/ScrollToPlugin3.min.js"></script>
+<script src="../js/zoom.js"></script><script src="../js/ui.js"></script>
+</head>
+
+<body> 
+<div class="accessbility"><a href="#contents">본문바로가기</a></div>
+<div id="wrapper">
+    <aside id="top-aside"></aside>
+    <header id="header" class="my"></header>
+    <div class="nav-area my"></div>
+    <div class="m-menu my"></div>
+    <section id="contents">
+    <!-- contents -->
+        <div class="location">
+            <div class="row">
+                <div class="location-menu">
+                    <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
+                    <dl>
+                        <dt style="width:26rem ;"><button type="button">회원정보 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;"><button type="button">회원정보수정 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <ul class="page-menu">
+                    <li><a href="#"><img src="../img/ico-location-01.svg" alt="공유"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-02.svg" alt="즐겨찾기"></a></li>
+                    <li><a href="#"><img src="../img/ico-location-03.svg" alt="프린트"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-contents">
+            <div class="row">
+                <!-- sub-contents -->
+                <h2 class="contents-title">회원정보수정</h2>
+                <div class="table-caption">
+                    <p class="caption-title fc-blue">기본정보</p>
+                    <p><span class="fc-red">*</span> 필수 입력</p>
+                </div>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:26rem ;">아이디<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="text" placeholder="" value="12388888888" disabled></p>
+                            <p class="form-info"><input type="checkbox" name="" id="chg"><label for="chg" class="fc-gray">비밀번호변경(변경 시 체크)</label></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">새로운 비밀번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="password" placeholder=""></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">비밀번호 확인<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="password" placeholder=""></p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="table-caption">
+                    <p class="caption-title fc-blue">업체정보</p>
+                    <p><span class="fc-red">*</span> 필수 입력</p>
+                </div>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:26rem ;">회사명</dt>
+                        <dd>
+                            <p><input type="text" placeholder="" value=""></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">사업자번호</dt>
+                        <dd>
+                            <p><input type="text" placeholder="" value="123-88-88888" disabled></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">대표자명</dt>
+                        <dd>
+                            <p>
+                                <input type="text" placeholder="" value="하정열" disabled>
+                                <button type="button" class="btn btn-m btn-white m-full">대표자 인증</button>
+                                <button type="button" class="btn btn-m btn-white m-full">대표자 추가</button>
+                                <button type="button" class="btn btn-m btn-black m-full mL5-m0">인증/추가 매뉴얼<i class="fa-solid fa-download"></i></button>
+                            </p>
+                            <p class="mT15 fs-16">휴대폰</p>
+                            <p>
+                                <input type="text" placeholder="" value="" >
+                                <button type="button" class="btn btn-m btn-black m-full mL5-m0">휴대폰 인증</button>
+                            </p>
+                            <p class="mT15 fs-16">공동인증</p>
+                            <div class="flex wrap ">
+                                <p class="flex align-center">
+                                <input type="text" placeholder="" value="" class=" m-full" style="width:12rem ;" >
+                                <span class="mL5-m0">-</span> 
+                                <input type="text" placeholder="" value=""  class=" m-full mL10-m0" style="width:12rem ;">
+                                </p>
+                                <button type="button" class="btn btn-m btn-black m-full mL5-m0">공동 인증</button>
+                            </div>
+                            <p class="form-info fc-red">
+                                ※ [대표자 인증]을 클릭한 후 [휴대폰 인증] 또는 [공동 인증]을 클릭하여 인증 시 대표자명이 자동으로 변경됩니다. <br>
+※ 대표자명 변경시 [대표자 인증]을 클릭하여 현재 대표자 본인 인증을 하시기 바랍니다.
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">전화번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center number-form wrap">
+                                <p class="flex align-center">
+                                    <select name="" id="" style="width:12rem;">
+                                        <option value="">선택</option>
+                                    </select>
+                                    <span class="space">-</span>
+                                    <input type="text" placeholder="" style="width:12rem;">
+                                    <span class="space">-</span>
+                                    <input type="text" placeholder="" style="width:12rem;">
+                                </p>
+                                <p class="m-full"><input type="checkbox" id=""><label for="" >번호없음</label></p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">팩스번호</dt>
+                        <dd>
+                            <div class="flex align-center number-form ">
+                                <select name="" id="" style="width:12rem;">
+                                    <option value="">선택</option>
+                                </select>
+                                <span class="space">-</span>
+                                <input type="text" placeholder="" style="width:12rem;">
+                                <span class="space">-</span>
+                                <input type="text" placeholder="" style="width:12rem;">
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">대표자 휴대폰 번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex wrap">
+                                <div class="flex align-center number-form wrap">
+                                    <p class="flex align-center">
+                                        <select name="" id="" style="width:12rem;">
+                                            <option value="">선택</option>
+                                        </select>
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                        <span class="space">-</span>
+                                        <input type="text" placeholder="" style="width:12rem;">
+                                    </p>
+                                    <button type="button" class="btn btn-m btn-black m-full">인증</button>
+                                </div>
+                            </div>
+                            <p class="form-info fc-red mT15">
+                                ※ [대표자 인증]을 클릭한 후 [휴대폰 인증] 또는 [공동 인증]을 클릭하여 인증 시 대표자명이 자동으로 변경됩니다. <br>
+※ 대표자명 변경시 [대표자 인증]을 클릭하여 현재 대표자 본인 인증을 하시기 바랍니다.
+                            </p>
+                            <p class="form-info">
+                                ※ 단 인증버튼 클릭 후 통신사선택 창이 안 나올시 (메뉴모음-도구-팝업차단-팝업차단설정에서 * kosmes.or.kr 추가) <br>
+※ 대표자명의의 휴대폰 인증이 원칙이나, 불가피할시 사용중인 타인명의 휴대폰으로도 인증이 가능합니다. 다만, 원활한 정책 지원을 위하여 가급적 빠른
+    시간내에 대표자명의로 재등록 바랍니다.
+                            </p>
+                            
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">대표이메일<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center email-form">
+                                <div class="flex">
+                                    <input type="text" placeholder="" style="width:24rem;">
+                                    <span class="space"> @ </span>
+                                    <input type="text" placeholder="" style="width:24rem;">
+                                </div>
+                                <div>
+                                    <select name="" id="" style="width:24rem;" class="m-full">
+                                        <option value="">직접입력</option>
+                                        <option value="">naver.com</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">주소<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="text" placeholder=""> <button type="button" class="btn btn-m btn-black m-full">검색</button></p>
+                            <p><input type="text" placeholder=""> <input type="text" placeholder="" class=" m-full"> </p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="table-caption">
+                    <p class="caption-title fc-blue">담당자정보</p>
+                    <p><span class="fc-red">*</span> 필수 입력</p>
+                </div>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:26rem ;">성명<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="text" placeholder=""></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">직위<span class="fc-red">*</span></dt>
+                        <dd>
+                            <p><input type="text" placeholder=""></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">전화번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center number-form wrap">
+                                <p class="flex align-center">
+                                    <select name="" id="" style="width:12rem;">
+                                        <option value="">선택</option>
+                                    </select>
+                                    <span class="space">-</span>
+                                    <input type="text" placeholder="" style="width:12rem;">
+                                    <span class="space">-</span>
+                                    <input type="text" placeholder="" style="width:12rem;">
+                                </p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">휴대폰번호<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center number-form ">
+                                <select name="" id="" style="width:12rem;">
+                                    <option value="">선택</option>
+                                </select>
+                                <span class="space">-</span>
+                                <input type="text" placeholder="" style="width:12rem;">
+                                <span class="space">-</span>
+                                <input type="text" placeholder="" style="width:12rem;">
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">이메일<span class="fc-red">*</span></dt>
+                        <dd>
+                            <div class="flex align-center email-form">
+                                <div class="flex">
+                                    <input type="text" placeholder="" style="width:24rem;">
+                                    <span class="space"> @ </span>
+                                    <input type="text" placeholder="" style="width:24rem;">
+                                </div>
+                                <div>
+                                    <select name="" id="" style="width:24rem;" class="m-full">
+                                        <option value="">직접입력</option>
+                                        <option value="">naver.com</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="table-caption">
+                    <p class="caption-title fc-blue">수신동의 설정</p>
+                </div>
+                <div class="table-block">
+                    <div class="flex flex-m-colum">
+                        <dl style="width:50%">
+                            <dt style="width:26rem ;">E-mail 수신여부</dt>
+                            <dd>
+                                <p>
+                                    <input type="radio" name="open" id="open-01"><label for="open-01">예</label>
+                                    <input type="radio" name="open" id="open-02"><label for="open-02" class="mL20">아니오</label>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl style="width:50%">
+                            <dt style="width:26rem ;">문자 수신여부</dt>
+                            <dd>
+                                <p>
+                                    <input type="radio" name="open" id="open-01-01"><label for="open-01-01">예</label>
+                                    <input type="radio" name="open" id="open-01-02"><label for="open-01-02" class="mL20">아니오</label>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="agree-text mT40">
+                    <p>동 신청서상에 기재된 내용에 대하여는 귀 공단 지원사업 및 신용정보 제공에 활용하여도 이의가 없음을 확인합니다.</p>
+                    <p class="mT15 text-right">2022.08.29 하정열</p>
+                </div>
+                <div class="btn-line mT60">
+                    <p class="btn-center"><button type="button" class="btn btn-l btn-blue btn-wide">수정</button></p>
+                </div>
+                <div class="out-block mT60">
+                    <p class="ico"><img src="../img/ico-people.svg" alt=""></p>
+                    <p class="text"><b>회원탈퇴</b>회원을 탈퇴하시면 각종 서비스에 제약을 받을 수 있습니다.</p>
+                    <a href="#" class="btn btn-m btn-black m-full">탈퇴하기<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <!-- //sub-contents -->
+            </div>
+        </div>
+    <!-- //contents -->
+    </section>
+    <footer id="footer">
+        <div class="footer-con"></div>
+    </footer>
+</div>
+<div class="page-aside"></div>
+</body>
+</html>

@@ -240,6 +240,7 @@ a:hover{color:#333;}
 .mR45{margin-right:4.5rem;}
 .mT0{margin-top: 0 !important;}
 .mL10-m0{margin-left: 1rem;}
+.mL5-m0{margin-left: 0.5rem;}
 .mT24{margin-top:2.4rem !important;}
 @media (max-width: 600px) {
     .mT24{margin-top:1.6rem  !important;}    
@@ -248,4 +249,5 @@ a:hover{color:#333;}
     .mT60{margin-top:4rem !important;}
     .mT80{margin-top:4rem !important;}
     .mL10-m0{margin-left:0rem;}
+    .mL5-m0{margin-left: 0rem;}
 }

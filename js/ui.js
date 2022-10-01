@@ -17,6 +17,9 @@ $(document).ready(function () {
     $('.nav-area.digi').load("../html-inc-digital/nav-area.html");
     $('.full-menu.digi').load("../html-inc-digital/full-menu.html");
     $('.m-menu.digi').load("../html-inc-digital/m-menu.html");
+
+    $('#header.my').load("../html-inc-mypage/header.html");
+    $('.nav-area.my').load("../html-inc-mypage/nav-area.html");
 });
 window.onload = function () {
     //$('body').imagesLoaded().done(function (instance) {

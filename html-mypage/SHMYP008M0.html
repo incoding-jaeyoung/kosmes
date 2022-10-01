@@ -18,7 +18,7 @@
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 <title>중소벤처기업진흥공단</title>
-<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/style-mypage.css" />
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 <script src="../js/imagesloaded.pkgd.min.js"></script>
@@ -26,28 +26,25 @@
 <script src="../js/ScrollTrigger.min.js"></script>
 <script src="../js/swiper-bundle.min.js"></script>
 <script src="../js/ScrollToPlugin3.min.js"></script>
-<script src="../js/zoom.js"></script><script src="../js/ui.js"></script>
+<script src="../js/zoom.js"></script>
+<script src="../js/ui.js"></script>
 </head>
 
 <body> 
 <div class="accessbility"><a href="#contents">본문바로가기</a></div>
 <div id="wrapper">
     <aside id="top-aside"></aside>
-    <header id="header"></header>
-    <div class="nav-area"></div>
-    <div class="full-menu"></div>
-    <div class="m-menu"></div>
+    <header id="header" class="my"></header>
+    <div class="nav-area my"></div>
+    <div class="m-menu my"></div>
     <section id="contents">
     <!-- contents -->
-        <div class="sub-visual visual-05">
-            <h2>중진공 안전보건 경영방침</h2>
-        </div>
         <div class="location">
             <div class="row">
                 <div class="location-menu">
                     <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
                     <dl>
-                        <dt><button type="button">지원사업 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dt><button type="button">자금지원 <i class="fa-solid fa-angle-down"></i></button> </dt>
                         <dd>
                             <ul>
                                 <li><a href="#">서브메뉴</a></li>
@@ -60,20 +57,7 @@
                         </dd>
                     </dl>
                     <dl>
-                        <dt><button type="button">중진공안내<i class="fa-solid fa-angle-down"></i></button></dt>
-                        <dd>
-                            <ul>
-                                <li><a href="#">서브메뉴</a></li>
-                                <li><a href="#">서브메뉴</a></li>
-                                <li><a href="#">서브메뉴</a></li>
-                                <li><a href="#">서브메뉴</a></li>
-                                <li><a href="#">서브메뉴</a></li>
-                                <li><a href="#">서브메뉴</a></li>
-                            </ul>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt><button type="button">중진공 안전보건 경영방침 <i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dt><button type="button">조기상환 신청(일회성) <i class="fa-solid fa-angle-down"></i></button></dt>
                         <dd>
                             <ul>
                                 <li><a href="#">서브메뉴</a></li>
@@ -95,7 +79,22 @@
         </div>
         <div class="sub-contents">
             <div class="row">
-                <div class="info-graphic zoom" style="border:none; padding:0;"><img src="../img/img-slogan-page.png" style="width:85rem" alt=""></div>
+                <h2 class="contents-title">조기상환 신청(일회성)</h2>
+                <div class="gray-text-block">
+                    <ul class="bulit-text">
+                        <li>이 화면에서는 원금 및 이자 납부, 중도상환용 가상계쫘를 발급받을 수 있습니다.(이용가능시간 평일 및 휴무일 08:30 ~ 23:00)</li>
+                        <li>가상계좌 상환처리 결과는 입금 후 대출현황조회 화면에서 확인 가능합니다.</li>
+                        <li>가상계좌 입금시 본인 계좌의 이체한도를 먼저 확인하시기 바랍니다.</li>
+                    </ul>
+                </div>
+                <p class="mT24"><input type="checkbox"><label for="">자동이체일인 경우나 원리금이 연체 중인 경우에 상환신청을 하시면 중복하여 출금될 수 있습니다.(중복출금시 익영업일환출)</label></p>
+                <p><input type="checkbox"><label for="">조기상환을 하시는 경우에는 조기상환금액에 대하여 상환 전일까지의 이자를 함께 상환하셔야 합니다.</label></p>
+                <div class="btn-line mT80" style="flex-direction:column ;">
+                    <p class="fc-blue text-center bold">위의 내용을 충분히 이해하고 동의하십니까?</p>
+                    <p class="btn-center mT15">
+                        <a href="#" class="btn btn-l btn-blue btn-wide ">동의함</a>
+                    </p>
+                </div>
             </div>
         </div>
     <!-- //contents -->
