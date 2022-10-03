@@ -403,7 +403,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
 .table-type-row{border-top: 2px solid #000; table-layout: fixed;}
 .table-type-row tbody th{background: #FAFAFA; border-bottom: 1px solid #ddd; padding:2.4rem 0;}
 .table-type-row tbody td{border-bottom: 1px solid #ddd; padding: 2.4rem;border-left: 1px solid #ddd;}
-.table-type-row.size-s th{padding: 1.6rem;}
+.table-type-row.size-s th{padding: 1.6rem 0.8rem;}
 .table-type-row.size-s td{padding: 1.6rem;}
 
 
@@ -500,7 +500,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .table-type-row{border-top: 2px solid #000; table-layout: fixed; display: block;}
     .table-type-row tbody {width: 100%; display: flex; flex-direction: column;}
     .table-type-row tbody tr{display: flex; flex-direction: column; width: 100% !important;}
-    .table-type-row tbody th{display: block; width: 100% !important; font-size: 1.4rem; padding: 0.8rem 0;}
+    .table-type-row tbody th{display: flex; align-items: center; width: 100% !important; font-size: 1.4rem; padding: 0.8rem 0;}
     .table-type-row tbody td{display: block; width: 100% !important; padding: 2.5rem 0; border-left: none; text-align: left;}
     .table-type-row.size-s td{padding: 1rem 0;}
     .table-type-row.size-s tr{flex-direction: row; flex-wrap: wrap;}
@@ -551,9 +551,9 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
 .box-con-row.row-03 .box-con{width: 33%; flex-direction: column;}
 .box-con-row.row-03 .box-con dt{width: 100%; border-bottom: 1px solid #ddd; border-right: 0;}
 .gray-line-block{border: 1px solid #ddd;}
-.gray-line-block .block-head{background: #FAFAFA; padding: 1.6rem; border-bottom: 1px solid #ddd; display: flex; align-items: center;}
+.gray-line-block .block-head{background: #FAFAFA; padding: 1.6rem 2.4rem; border-bottom: 1px solid #ddd; display: flex; align-items: center;}
 .gray-line-block .block-head em{display: flex; align-items: center;}
-.gray-line-block .block-con{padding:1.6rem;}
+.gray-line-block .block-con{padding:1.6rem 2.4rem;}
 .date-picker{position: relative; display: inline-flex;}
 .date-picker button{position: absolute; right: 1.2rem; top: 1.2rem;}
 .white-block{border: 1px solid #ddd;}
@@ -584,7 +584,9 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .box-con-row .box-con{width: 100% !important; flex-direction: column;}
     .box-con-row .box-con dt{width: 100% !important; border-bottom: 1px solid #ddd; padding: 0.8rem 0;}
 
-    .gray-line-block .block-head{flex-direction: column; align-items:flex-start;} 
+    .gray-line-block .block-head{flex-direction: column; align-items:flex-start; padding: 1.6rem;} 
+    .gray-line-block .block-con{padding:1.6rem;}
+    
     .white-block .block-head{padding:0.8rem;}
     .white-block .block-con{padding:0.8rem;}
     .black-line-block{padding: 1.6rem;}
