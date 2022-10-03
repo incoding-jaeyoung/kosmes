@@ -1,0 +1,160 @@
+
+<body> 
+    <div class="modal modal-inside" tabindex="-1" aria-hidden="true">
+        <div class="overlay" onclick="closeModal();"><span>닫기</span></div>   
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>출장무역관 상세요청사항</h1>
+                    <button type="button" class="close" onclick="closeModal();"><img src="../img/btn-close.svg" alt=""></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-scroll-con scroller">
+                        <table class="table-type-row size-s">
+                            <caption>
+                                <span></span>
+                            </caption>
+                            <colgroup>
+                                <col style="width:13rem;">
+                                <col style="width:auto">
+                                <col style="width:13rem;">
+                                <col style="width:auto">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>무역관</th>
+                                    <td colspan="3">
+                                        <select name="" id="" style="width:32rem ;" class="m-full mT0">
+                                            <option value="">텍스트</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>상담희망일</th>
+                                    <td colspan="3">
+                                        <div class="flex align-center">
+                                            <input type="text" value="" style="width:14rem ;" class="datepicker m-full mT0">
+                                            <p class="mL5 mR5">-</p>
+                                            <input type="text" value="" style="width:14rem ;" class="datepicker m-full mT0">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>현지도착일</th>
+                                    <td><input type="text" value="" style="width:14rem ;" class="datepicker m-full mT0"></td>
+                                    <th>현지도착항공편</th>
+                                    <td><input type="text" value="" style="width:14rem ;" class="m-full mT0"></td>
+                                </tr>
+                                <tr>
+                                    <th>현지출발일</th>
+                                    <td><input type="text" value="" style="width:14rem ;" class="datepicker m-full mT0"></td>
+                                    <th>현지출발항공편</th>
+                                    <td><input type="text" value="" style="width:14rem ;" class="m-full mT0"></td>
+                                </tr>
+                                <tr>
+                                    <th>출장유형</th>
+                                    <td colspan="3">
+                                        <p>
+                                            <input type="radio"><label for="" class="mR20">해외세일즈출장</label>
+                                            <input type="radio"><label for="">해외투자출장지원</label>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>출장세부일정</th>
+                                    <td colspan="3"><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <th>상담희망내용</th>
+                                    <td colspan="3"><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <th>출장유형</th>
+                                    <td colspan="3">
+                                        <p class="bold">상담주선</p>
+                                        <p>
+                                            <input type="checkbox"><label for="" class="mR20">호텔예약</label>
+                                            <input type="checkbox"><label for="" class="mR20">통역알선</label>
+                                            <input type="checkbox"><label for="" class="mR20">VISA</label>
+                                            <input type="checkbox"><label for="" class="mR20">기타</label>
+                                            <input type="checkbox"><label for="" class="mR20">Meeting Arrangement</label>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>기타지원사항</th>
+                                    <td colspan="3"><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="title-blue-20">호텔예약</p>
+                        <table class="table-type-row size-s">
+                            <caption>
+                                <span></span>
+                            </caption>
+                            <colgroup>
+                                <col style="width:13rem;">
+                                <col style="width:auto">
+                                <col style="width:13rem;">
+                                <col style="width:auto">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>가격수준</th>
+                                    <td colspan="3">
+                                        <p>
+                                            <select name="" id="" style="width:32rem ;" class="m-full mT0">
+                                                <option value="">텍스트</option>
+                                            </select>
+                                        </p>
+                                        <div class="flex align-center mT15">
+                                            <input type="text" value="" style="width:14rem ;" class="m-full mT0">
+                                            <p class="mL5 mR5">~</p>
+                                            <input type="text" value="" style="width:14rem ;" class="m-full mT0">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>방형태</th>
+                                    <td colspan="3">
+                                        <div class="flex align-center">
+                                           <p style="width:7rem;">Single :</p> <input type="text" style="width:32rem ;" class="m-full mT0">
+                                        </div>
+                                        <div class="flex align-center mT15">
+                                            <p style="width:7rem;"> Double :</p> <input type="text" style="width:32rem ;" class="m-full mT0">
+                                        </div>
+                                        <div class="flex align-center mT15">
+                                            <p style="width:7rem;">Twin :</p> <input type="text" style="width:32rem ;" class="m-full mT0">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>호텔등급</th>
+                                    <td colspan="3">
+                                        <p>
+                                            <input type="radio"><label for="" class="mR20">상</label>
+                                            <input type="radio"><label for="" class="mR20">중</label>
+                                            <input type="radio"><label for="" class="mR20">하</label>
+                                            <input type="radio"><label for="" class="mR20">여관</label>
+                                            <input type="radio"><label for="" class="mR20">민박</label>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>부킹날짜</th>
+                                    <td colspan="3">
+                                        <div class="flex align-center">
+                                            <input type="text" value="" style="width:14rem ;" class="datepicker m-full mT0">
+                                            <p class="mL5 mR5">-</p>
+                                            <input type="text" value="" style="width:14rem ;" class="datepicker m-full mT0">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
