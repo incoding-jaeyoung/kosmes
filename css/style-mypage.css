@@ -146,7 +146,7 @@ a:hover{color:#003994;}
     .modal-header{display: flex; align-items: center; justify-content: space-between; border-radius:0; padding: 0.8rem 0.8rem 0.8rem 2rem; border: none; min-height: 6rem; flex:none; padding-right: 5rem;}
     .modal-header h1{font-size:1.6rem; font-weight: 700; display: flex; align-items: center; justify-content: flex-start; line-height: 120%; font-weight: bold; color: #fff;}
     .modal-header h1 span{font-size: 2.4rem; font-weight: 600; margin-right: 0.5rem;}
-    .modal-body{border: none; padding: 2rem; padding-right: 0; outline: none; border-radius: 0; font-size: 1.2rem; display: flex;  flex: 1; overflow-y: auto;}
+    .modal-body{border: none; padding: 2rem; padding-right: 0; outline: none; border-radius: 0; display: flex;  flex: 1; overflow-y: auto;}
     .modal-body textarea{width: 100%; border: .1rem solid #ddd; border-radius: .4rem; padding: 1rem; height: 12rem;}
     .modal-footer{border-top: none; justify-content:center; padding: 0.8rem;}
     .modal-scroll-con{overflow-y: auto; height: auto; padding-right: 2rem;  flex: 1 ; }

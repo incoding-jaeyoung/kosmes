@@ -505,7 +505,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .table-type-row.size-s td{padding: 1rem 0;}
     .table-type-row.size-s tr{flex-direction: row; flex-wrap: wrap;}
     .table-type-row.size-s tr th{width: 30% !important;}
-    .table-type-row.size-s tr td{width: 70% !important; padding: 1rem;}
+    .table-type-row.size-s tr td{width: 70% !important; padding: 1.6rem;}
 
     .bbs-thumb-list {margin-top: 1.5rem; padding-top: 0;}
     .bbs-thumb-list li{width:100%; margin-top: 2.4rem; margin-right: 0;}
