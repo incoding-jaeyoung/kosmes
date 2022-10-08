@@ -8,12 +8,14 @@
 .fs-16{font-size: 1.6rem;}
 .fs-18{font-size: 1.8rem; line-height: 3.2rem;}
 .fs-20{font-size: 2rem;}
+.fs-34{font-size: 3.4rem;}
 
 
 @media (max-width: 850px) {
     .fs-14{font-size: 1.2rem !important; line-height: 2.2rem;}
     .fs-18{font-size: 1.4rem; line-height: 2.4rem;}
     .fs-20{font-size: 1.8rem; line-height: 1.5;}
+    .fs-34{font-size: 2rem;}
 }
 
 .under{text-decoration: underline;}
@@ -768,6 +770,8 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .login-step li{height:auto; display: flex; flex-direction: column; align-items:flex-start; justify-content:flex-start ; font-size: 1.2rem; padding:0.8rem; line-height: 1.8rem;}
     .login-step li:after{display: none;}
     .login-step li.active:before{display: none;}
+    .login-step li b{align-self: flex-start;}
+    .login-step li b + *{align-self: flex-start;}
 
     .file-add-block{display: flex; justify-content: space-between; flex-direction: column;}
     .file-add-block .file-con{flex-wrap: wrap; padding: 1rem; height: auto;}
@@ -847,3 +851,23 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .file-up-block{display: flex;}
     .file-up-block input[type=text]{height: 4rem; width: 100%;}
 }
+
+.info-step .step{position: relative;}
+.info-step .step:last-of-type::after{display: none;}
+.info-step .step::after{content: ""; display: block; width: 4rem; height: 4rem; background: url(../img/ico-setp-right.svg) no-repeat; position: absolute; right: 0; transform: translateX(75%) translateY(-50%); z-index: 10; top: 50%; background-size: 100%;}
+@media (max-width: 600px) {
+    .info-step .step{margin-bottom: 4rem !important;}
+    .info-step .step::after{width: 2.4rem; height: 2.4rem; background: url(../img/ico-setp-right-m.svg) no-repeat; transform: translateX(-50%) translateY(0%) ; z-index: 10; left: 50%; right: auto; top: auto; bottom:-3.2rem;} 
+}
+
+
+
+
+
+
+
+
+
+
+
+

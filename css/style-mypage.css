@@ -493,3 +493,25 @@ footer{background-color: #2A2C31; color: #fff;}
     .out-block .text{font-size: 1.2rem; color: #E60021; display: flex; align-items:flex-start; flex-direction: column;}
     .out-block .text b{font-size: 1.4rem; margin-right: 1rem; color: #333;}
 }
+.favo-list-block{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.favo-list-block .favo{display: flex; border: 1px solid #ddd; width: 63.2rem; justify-content: space-between; align-items: center; padding: 2.4rem; margin-top: 1.6rem;}
+.favo-list-block .favo dl{}
+.favo-list-block .favo dl dt{font-weight: bold;}
+.favo-list-block .favo dl dd{margin-top: 0.8rem; font-size: 1.4rem; color: #666666; line-height: 100%;}
+.favo-list-block .favo .menu{ display: flex;}
+.favo-list-block .favo .menu button{ font-size: 1.4rem; display: flex; align-items: center;}
+.favo-list-block .favo .menu button.del{color:#E60021;}
+.favo-list-block .favo .menu button.del::before{content: ""; width: 1.6rem; height: 1.6rem; display: inline-flex; background: url(../img/ico-del.svg) no-repeat;}
+.favo-list-block .favo .menu button.pin{color: #666666; margin-left: 1.5rem;}
+.favo-list-block .favo .menu button.pin::before{content: ""; width: 1.6rem; height: 1.6rem; display: inline-flex; background: url(../img/ico-pin.svg) no-repeat;}
+.favo-list-block .favo.active  .menu button.pin{color: #003994;}
+.favo-list-block .favo.active  .menu button.pin::before{background: url(../img/ico-pin-active.svg) no-repeat;}
+
+@media (max-width: 600px) {
+    .favo-list-block .favo{width:100%;  padding: 1.6rem;}
+    .favo-list-block .favo dl dt{font-size: 1.4rem; line-height: 120%;}
+    .favo-list-block .favo dl dd{font-size: 1.2rem; margin-top: 0.8rem;}
+    .favo-list-block .favo .menu button{ font-size: 1.2rem; display: flex; align-items: center;}
+    .favo-list-block .favo .menu button.pin{color: #666666; margin-left: 0.8rem;}
+}
+

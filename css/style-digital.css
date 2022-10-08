@@ -1245,3 +1245,5 @@ footer{background-color: #2A2C31; color: #fff;}
 }
 
 
+.login-step li.active{background-color: #3F75CC ;}
+.login-step li.active::after{background: url(../img/ico-join-active-01.svg) no-repeat; width: 2rem;}

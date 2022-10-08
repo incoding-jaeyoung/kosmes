@@ -26,8 +26,7 @@
 <script src="../js/ScrollTrigger.min.js"></script>
 <script src="../js/swiper-bundle.min.js"></script>
 <script src="../js/ScrollToPlugin3.min.js"></script>
-<script src="../js/zoom.js"></script>
-<script src="../js/ui.js"></script>
+<script src="../js/zoom.js"></script><script src="../js/ui.js"></script>
 </head>
 
 <body> 
@@ -44,7 +43,7 @@
                 <div class="location-menu">
                     <p><a href="#"><img src="../img/ico-home.svg" alt=""></a></p>
                     <dl>
-                        <dt><button type="button">컨설팅 기술지원 <i class="fa-solid fa-angle-down"></i></button> </dt>
+                        <dt><button type="button">수출마케팅 <i class="fa-solid fa-angle-down"></i></button> </dt>
                         <dd>
                             <ul>
                                 <li><a href="#">서브메뉴</a></li>
@@ -57,7 +56,7 @@
                         </dd>
                     </dl>
                     <dl>
-                        <dt><button type="button">수출인큐베이터 / 코리아스타트... <i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dt><button type="button">공유오피스 <i class="fa-solid fa-angle-down"></i></button> </dt>
                         <dd>
                             <ul>
                                 <li><a href="#">서브메뉴</a></li>
@@ -70,7 +69,7 @@
                         </dd>
                     </dl>
                     <dl>
-                        <dt><button type="button">수출사랑방 <i class="fa-solid fa-angle-down"></i></button></dt>
+                        <dt><button type="button">예약현황 <i class="fa-solid fa-angle-down"></i></button> </dt>
                         <dd>
                             <ul>
                                 <li><a href="#">서브메뉴</a></li>
@@ -92,79 +91,60 @@
         </div>
         <div class="sub-contents">
             <div class="row">
-                <h2 class="contents-title">수출사랑방</h2>
-                <div class="search-form">
-                    <form action="">
-                        <select name="" id="">
-                            <option value="">년도</option>
-                        </select>
-                        <select name="" id="" class="m-full">
-                            <option value="">구분</option>
-                        </select>
-                        <select name="" id="" class="m-full">
-                            <option value="">선택</option>
-                        </select>
-                        <input type="text" value="" placeholder="검색어를 입력해주세요">
-                        <button type="submit" class="btn btn-m btn-blue"><img src="../img/search.svg" alt=""> 검색</button>
-                    </form>
+                <!-- sub-contents -->
+                <h2 class="contents-title">예약현황</h2>
+                <h3 class="sub-title-02 mT60">글로벌공유오피스 예약</h3>
+                <div class="table-caption">
+                    <p class="caption-title fc-blue">공유오피스 예약정보</p>
+                    <p><span class="fc-red">* </span>필수 입력</p>
                 </div>
-                <div class="bbs_ListA mT40">
-                    <table>
-                        <caption>
-                            <span>수출사랑방</span>
-                        </caption>
-                        <colgroup>
-                            <col style="width:8%;">
-                            <col style="width:auto;">
-                            <col style="width:10%;">
-                            <col style="width:10%;">
-                            <col style="width:10%;"></colgroup>
-                        <thead>
-                            <tr>
-                                <th scope="col">번호</th>
-                                <th scope="col">지역</th>
-                                <th scope="col">신청자명</th>
-                                <th scope="col">신청일</th>
-                                <th scope="col">상태</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="mobNone">1134</td>
-                                <td class="bbs_tit">
-                                    <a href="#">
-                                        내용이 들어가는 영역입니다
-                                    </a>
-                                </td>
-                                <td>텍스트</td>
-                                <td><span class="mob-show-td"></span>2022.08.24</td>
-                                <td><span class="mob-show-td"></span> 텍스트</td>
-                            </tr>
-                            <tr>
-                                <td class="mobNone">1134</td>
-                                <td class="bbs_tit">
-                                    <a href="#">
-                                        내용이 들어가는 영역입니다
-                                    </a>
-                                </td>
-                                <td>텍스트</td>
-                                <td><span class="mob-show-td"></span>2022.08.24</td>
-                                <td><span class="mob-show-td"></span> 텍스트</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="table-block">
+                    <dl>
+                        <dt style="width:26rem ;">국가<span class="fc-red">* </span></dt>
+                        <dd>
+                            <select name="" id="" class="m-full mT0" style="width:32rem;">
+                                <option value="">국가선택</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">지역<span class="fc-red">* </span></dt>
+                        <dd>
+                            <select name="" id="" class="m-full mT0" style="width:32rem;">
+                                <option value=""></option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">좌석수<span class="fc-red">* </span></dt>
+                        <dd>
+                            <input type="text" placeholder="" value="1" style="width:32rem" disabled>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">예약기간(3개월)<span class="fc-red">* </span></dt>
+                        <dd>
+                            <p class="flex align-center">
+                                <input type="text" placeholder="" value="" class="datepicker m-full" style="width:24rem" >
+                                <span style="width:2rem;" class="text-center">-</span>
+                                <input type="text" placeholder="" value="" class="datepicker m-full" style="width:24rem" >
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt style="width:26rem ;">요청사항</dt>
+                        <dd>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="좌석 수 / 기간 등 변경 요청 사항을 기입해 주십시오." style="height:12rem ;"></textarea>
+                        </dd>
+                    </dl>
                 </div>
-                <div class="paging mT60">
-                    <a href="#" class="pprev"><img src="../img/ico-pprev.svg" alt=""></a>
-                    <a href="#" class="prev"><img src="../img/ico-prev.svg" alt=""></a>
-                    <a href="#" class="active">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#" class="next"><img src="../img/ico-next.svg" alt=""></a>
-                    <a href="#" class="nnext"><img src="../img/ico-nnext.svg" alt=""></a>
+                <div class="btn-line mT60">
+                    <p class="btn-center">
+                        <button type="button" class="btn btn-l btn-white">취소</button>
+                        <button type="button" class="btn btn-l btn-blue">수정</button>
+                    </p>
                 </div>
+                <!-- //sub-contents -->
             </div>
         </div>
     <!-- //contents -->
