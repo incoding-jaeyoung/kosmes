@@ -514,14 +514,20 @@ a.more-text{color: #003994;}
 .sns-list{display: flex;}
 .sns-list li{margin-left: 1.5rem;}
 .sns-list li img{width: 4.8rem;}
-.community-block .bbs-list{margin-top: 2.5rem; display: flex; justify-content: space-between; }
-.community-block .bbs-list .bbs-con{width: 41.3rem; position: relative; border-radius: 1.5rem 1.5rem 0 0; overflow: hidden;}
-.community-block .bbs-list .bbs-con .tag{position: absolute; left: 0; top: 0;}
+.community-block .bbs-list{margin-top: 2.5rem; overflow: hidden;}
+.community-block .bbs-list .swiper-slide{width: 41.3rem;}
+.community-block .bbs-list .bbs-con{width: 41.3rem; position: relative; overflow: hidden;}
+.community-block .bbs-list .bbs-con .tag{position: absolute; left: 0; top: -0.2rem; z-index: 10;}
 .community-block .bbs-list .bbs-con .image{height: 26.8rem; position: relative;}
 .community-block .bbs-list .bbs-con .movie::before{position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); content: ""; display: flex;}
-.community-block .bbs-list .bbs-con .movie::after{content: ""; display: flex; width: 6rem; height: 6rem; background: url(../img/ico-play.svg) no-repeat; position: absolute; left: 50%; top: 50%;  transform: translateX(-50%) translateY(-50%);}
+.community-block .bbs-list .bbs-con .movie::after{content: ""; display: flex; width: 6rem; height: 6rem; background: url(../img/ico-play.svg) no-repeat; position: absolute; left: 50%; top: 50%;  transform: translateX(-50%) translateY(-50%); background-size:100%;}
 .community-block .bbs-list .bbs-con .title{background-color: #fff; height: 9.5rem; display: flex; align-items: center; padding:0 1.5rem;}
-.community-block .bbs-list .bbs-con .title span{font-size: 1.8rem; color: #000; font-weight: 500; letter-spacing:-0.15rem; display: block; height: 5.4rem; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-wrod;}
+.community-block .bbs-list .bbs-con .title span{font-size: 1.8rem; color: #000; font-weight: 500; letter-spacing:-0.15rem; display: block; height: 5.4rem; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-wrod; line-height: 2.6rem;}
+.community-block .bbs-list .swiper-pagination{display: none;}
+.community-block .bbs-list .swiper-button-prev{left: -6rem;}
+.community-block .bbs-list .swiper-button-prev::after{color: #003994; font-size: 3rem;}
+.community-block .bbs-list .swiper-button-next{right: -6rem;}
+.community-block .bbs-list .swiper-button-next::after{color: #003994; font-size: 3rem;}
 
 .work-block{background: linear-gradient(90.02deg, #022C59 0.33%, #2055A9 99.72%); height: 25.4rem; position: relative; z-index: 10;}
 .work-block .sub-title{color: #fff;}
@@ -691,13 +697,22 @@ a.more-text{color: #003994;}
     .sns-list li{margin-left:0; margin-right: 0.8rem;}
     .sns-list li img{width: 4rem;}
     .community-block .bbs-list{margin-top:1rem; display: flex; justify-content: space-between; flex-direction: column;}
-    .community-block .bbs-list .bbs-con{width:100%; position: relative; border-radius: 1.5rem 1.5rem 0 0; overflow: hidden; margin-top: 1.5rem;}
+    .community-block .bbs-list .swiper-slide{width: 100%;height: auto;}
+    .community-block .bbs-list .bbs-con{width:100%; height: auto; position: relative; border-radius:0; overflow: hidden; margin-top: 1.5rem;}
     .community-block .bbs-list .bbs-con .tag{position: absolute; left: 0; top: 0;}
     .community-block .bbs-list .bbs-con .image{height: 23rem; position: relative;}
     .community-block .bbs-list .bbs-con .movie::before{position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); content: ""; display: flex;}
     .community-block .bbs-list .bbs-con .movie::after{content: ""; display: flex; width: 6rem; height: 6rem; background: url(../img/ico-play.svg) no-repeat; position: absolute; left: 50%; top: 50%;  transform: translateX(-50%) translateY(-50%);}
     .community-block .bbs-list .bbs-con .title{background-color: #fff; height: auto; display: flex; align-items: center; padding:0.8rem;}
     .community-block .bbs-list .bbs-con .title span{font-size: 1.4rem; color: #000; font-weight: 500; letter-spacing:-0.15rem; display: block; height:auto; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-wrod; line-height: 2.4rem;}
+    .community-block .bbs-list .swiper-button-next,.community-block .bbs-list .swiper-button-prev{display: none;}
+    .community-block .bbs-list .swiper-pagination{position: static; line-height: 100%; margin-top: 1.6rem; display: block;}
+    .community-block .bbs-list .swiper-pagination .swiper-pagination-bullet-active{background-color:#003994;}
+    .community-block .bbs-list .swiper-pagination span.swiper-pagination-bullet {
+        margin: 0 0.2rem;
+        width: 0.8rem;
+        height: 0.8rem;
+    }
 
     .work-block{height: auto;}
     .work-block .row{ padding:4rem 0.8rem ;}

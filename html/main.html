@@ -84,8 +84,8 @@
                         spaceBetween: 20,
                         
                         navigation: {
-                            nextEl: ".swiper-button-next",
-                            prevEl: ".swiper-button-prev",
+                            nextEl: ".index-slider .swiper-button-next",
+                            prevEl: ".index-slider .swiper-button-prev",
                         },
                         breakpoints: {
                             0: {
@@ -377,8 +377,8 @@
                         slidesPerView: "auto",
                         spaceBetween: 20,
                         navigation: {
-                            nextEl: ".swiper-button-next",
-                            prevEl: ".swiper-button-prev",
+                            nextEl: ".banner-slider .swiper-button-next",
+                            prevEl: ".banner-slider .swiper-button-prev",
                         },
                         breakpoints: {
                             0: {
@@ -409,23 +409,76 @@
                         <li><a href="#"><img src="../img/youtube.svg" alt=""></a></li>
                     </ul>
                 </div>
-                <div class="bbs-list up-slide-stagger">
-                    <div class="bbs-con">
-                        <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
-                        <p class="img"><a href="#" class="image movie"><img src="../img/thumb/thumb-03.png" alt=""></a></p>
-                        <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘리에이터 되는 법</span></p>
+                <div class="bbs-list">
+                    <div class="swiper bbsSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bbs-con">
+                                    <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                                    <p class="img"><a href="#" class="image movie"><img src="../img/thumb/thumb-03.png" alt=""></a></p>
+                                    <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘리에이터 되는 법</span></p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bbs-con">
+                                    <p class="tag"><img src="../img/ico-post.svg" alt=""></p>
+                                    <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-04.png" alt=""></a></p>
+                                    <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bbs-con">
+                                    <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                                    <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-05.png" alt=""></a></p>
+                                    <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bbs-con">
+                                    <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                                    <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-05.png" alt=""></a></p>
+                                    <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bbs-con">
+                                    <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
+                                    <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-05.png" alt=""></a></p>
+                                    <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <div class="bbs-con">
-                        <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
-                        <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-04.png" alt=""></a></p>
-                        <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
-                    </div>
-                    <div class="bbs-con">
-                        <p class="tag"><img src="../img/ico-youtube.svg" alt=""></p>
-                        <p class="img"><a href="#" class="image"><img src="../img/thumb/thumb-05.png" alt=""></a></p>
-                        <p class="title"><span>중소기업 재직자도 크리에이터 되는 법! 중진공 마이크로러닝으로 손쉽게 영상 콘텐츠 만들어보자! 기업 재직자도 크리에이터 되는 법</span></p>
-                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
+                <script>
+                    var bbsSwiper = new Swiper(".bbsSwiper", {
+                        speed: 1000,
+                        loop:true,
+                        slidesPerView: "auto",
+                        spaceBetween: 20,
+                        navigation: {
+                            nextEl: ".bbs-list .swiper-button-next",
+                            prevEl: ".bbs-list .swiper-button-prev",
+                        },
+                        
+                        breakpoints: {
+                            0: {
+                                spaceBetween: 14,
+                                navigation: false,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    type: "bullets",
+                                },
+                            },
+                            600: {
+                                spaceBetween: 20,
+                            },
+                        },
+                    });
+                </script>
             </div>
         </div>
         <div class="work-block">
@@ -545,8 +598,8 @@
                     slidesPerView: "auto",
                     spaceBetween: 8,
                     navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
+                        nextEl: ".familySwiper .swiper-button-next",
+                        prevEl: ".familySwiper .swiper-button-prev",
                     },
                 });
                 </script>

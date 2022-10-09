@@ -166,6 +166,7 @@ hr{height: 1px; background-color: #ddd; display: block; border: none;}
 .btn-line .btn-center a,.btn-line .btn-center button{width: 18rem; margin: 0 0.8rem;}
 .btn-line .btn-right{justify-content:flex-end; align-items: center; display: flex; width: 100%;}
 .btn-line .btn-right a, .btn-line .btn-right button{margin-left: 0.8rem;}
+.btn-line .btn-list .btn{flex: auto;}
 .zoom{position: relative; overflow: hidden;}
 .zoom img{background-color: #fff;}
 .zoom::after{content: ""; display: block;  position: absolute; right: 0; bottom: 0; z-index: 10;  height: 4rem; width: 4rem; background: url(../img/btn-zoom.svg) no-repeat; display:none;}
@@ -614,6 +615,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
 .arrow-step li:last-child{border: none;}
 .arrow-step li:last-child::after{display: none;}
 .arrow-step li b{margin-right: 0.4rem;}
+
 @media (max-width: 600px) {
     .tab-style-m{display: flex; border:none; border-bottom: none; flex-direction: column; position: relative;}
     .tab-style-m dt{content: attr(data-title); border: 1px solid #003994; height: 5.6rem; color: #003994; display: flex; justify-content: space-between; padding: 0 1.6rem; align-items: center;}
@@ -708,7 +710,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
 .login-step li:after{content: ""; height: 5.8rem; width: 2.2rem; background: url(../img/ico-join.svg) no-repeat; display: flex; position: absolute; right:-2.2rem; top: 0; background-size:auto 100%; z-index: 10;}
 .login-step li.active{background-color: #2F436B; color: #fff;}
 .login-step li.active::after{background: url(../img/ico-join-active.svg) no-repeat; width: 2rem; height: 5.6rem; background-size: auto 100%; right: -2rem;}
-.login-step li.active::before{content: ""; height: 5.8rem; width: 2.2rem; background: url(../img/ico-join.svg) no-repeat; display: flex; position: absolute; left:-0.2rem; top: 0; background-size:auto 100%;}
+.login-step li.active::before{content: ""; height: 5.8rem; width: 2.2rem; background: url(../img/ico-join.svg) no-repeat; display: flex; position: absolute; left:-0.1rem; top: -0.1rem; bottom:-0.1rem; background-size:auto 100%;}
 .login-step li:last-child{border: none;}
 .login-step li:last-child::after{display: none;}
 .login-step li:first-child::before{display: none;}
@@ -752,7 +754,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
 .search-form{border: 1px solid #ddd; background: #FAFAFA; display: flex; justify-content: center; padding: 2.4rem;}
 .search-form form{display: flex; justify-content: center;}
 .search-form select{margin-right: 1rem; width: 14rem; flex: none;}
-.search-form input{width: 42rem;}
+.search-form input[type=text]{width: 42rem;}
 .search-form .btn{min-width:10rem}
 .search-form .btn img{margin: 0; margin-right: 1rem;}
 
@@ -772,6 +774,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .login-step li.active:before{display: none;}
     .login-step li b{align-self: flex-start;}
     .login-step li b + *{align-self: flex-start;}
+    .login-step.center li{align-items: center;}
 
     .file-add-block{display: flex; justify-content: space-between; flex-direction: column;}
     .file-add-block .file-con{flex-wrap: wrap; padding: 1rem; height: auto;}
@@ -809,7 +812,7 @@ table.table-default tfoot tr td:last-of-type{border-right: none;}
     .search-form form{display: flex; justify-content: center;flex-direction: column;}
     .search-form select{margin-right: 1rem; width:100% !important;}
     .search-form select:nth-child(2){margin-top: 0.5rem;}
-    .search-form input{width:100%; margin-top: 0.5rem;}
+    .search-form input[type=text]{width:100%; margin-top: 0.5rem;}
     .search-form .btn{min-width:10rem; width:100%; margin-top: 1.5rem;}
     .search-form .btn img{margin: 0; margin-right: 1rem;}
 }

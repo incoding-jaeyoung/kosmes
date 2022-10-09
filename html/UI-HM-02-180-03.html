@@ -104,7 +104,7 @@
                     <p class="fc-gray">* 제안에 해당하지 않을 경우(단순한 주의환기, 진정, 비판, 단순한 건의, 불만의 표시) 보완절차를 통해 적절한 보완이
                         이루어지지 않을 경우 국민질문방 이관 또는 제안 외 내용으로 처리 될 수 있습니다.</p>
                 </div>
-                <ul class="arrow-step mT80">
+                <ul class="login-step center mT80">
                     <li class="active">신청서 작성</li>
                     <li>신청완료</li>
                 </ul>
@@ -181,15 +181,17 @@
                         <dt>첨부파일</dt>
                         <dd>
                             <div class="flex flex-m-colum">
-                                    <div class="file-upload mT0 m-full">
-                                        <p class="filename-block">
-                                            <span id="filename" class="name">파일명이 표시됩니다</span>
-                                            <img src="../img/ico-file-up.svg" alt="">
-                                        </p>
-                                        <input type="file" value="" class="upfile" name="upFile">
-                                    </div>
-                                    <button type="button" class="btn btn-m btn-white m-full mL10-m0">삭제하기</button>
-                                    <button type="button" class="btn btn-m btn-white m-full mL10-m0">추가하기 <i class="fa-solid fa-plus"></i></button>
+                                <div class="file-up-block">
+                                    <input type="text" value="" disabled>
+                                    <span class="flex">
+                                        <div class="file-input">
+                                            <button type="button" class="btn btn-m btn-black">찾아보기</button>
+                                            <input type="file">
+                                        </div>
+                                        <button type="button" class="btn btn-m btn-white mT0">삭제하기</button>
+                                    </span>
+                                </div>
+                                <button type="button" class="btn btn-m btn-white m-full mL10">추가하기 <i class="fa-solid fa-plus"></i></button>
                             </div>
                             <p class="form-info">※ 첨부파일 최대 개수는 5개이며 첨부 가능 용량은 전체 100MB입니다.(개별 20MB입니다)</p>
                         </dd>
