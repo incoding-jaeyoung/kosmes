@@ -134,6 +134,10 @@ function init() {
             "opacity":"0",
             "display":"flex",
         }).show().animate({opacity:1}).addClass('active')
+        $('.tab-ui-con.block > *').eq(indexNum).css({
+            "opacity":"0",
+            "display":"block",
+        }).show().animate({opacity:1}).addClass('active')
         ScrollTrigger.refresh();
     })
     $('.menu-block dt ').on('click',function(){

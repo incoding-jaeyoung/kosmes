@@ -113,8 +113,8 @@ a:hover{color:#003994;}
 .modal-dialog.modal-s{width: 50rem;}
 .modal-dialog.modal-s .modal-content{border-radius: 0;}
 .modal-dialog.modal-s .modal-header{border-radius: 0; height: auto; min-height: 5.6rem; padding: 1.6rem 2.4rem; text-align: center;}
-.modal-dialog.modal-s .modal-body{border-radius: 0; padding: 4rem 0 4rem 3rem}
-.modal-dialog.modal-s .modal-scroll-con{padding-right: 3rem;}
+.modal-dialog.modal-s .modal-body{border-radius: 0; padding: 4rem 0 4rem 1.6rem}
+.modal-dialog.modal-s .modal-scroll-con{padding-right: 1.6rem;}
 
 
 /* added:begin */

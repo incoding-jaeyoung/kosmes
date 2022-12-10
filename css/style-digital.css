@@ -113,8 +113,8 @@ a:hover{color:#003994;}
 .modal-dialog.modal-s{width: 50rem;}
 .modal-dialog.modal-s .modal-content{border-radius: 0;}
 .modal-dialog.modal-s .modal-header{border-radius: 0; height: auto; min-height: 5.6rem; padding: 1.6rem 2.4rem; text-align: center;}
-.modal-dialog.modal-s .modal-body{border-radius: 0; padding: 4rem 0 4rem 3rem}
-.modal-dialog.modal-s .modal-scroll-con{padding-right: 3rem;}
+.modal-dialog.modal-s .modal-body{border-radius: 0; padding: 4rem 0 4rem 1.6rem}
+.modal-dialog.modal-s .modal-scroll-con{padding-right: 1.6rem;}
 
 
 /* added:begin */
@@ -146,7 +146,7 @@ a:hover{color:#003994;}
     .modal-header{display: flex; align-items: center; justify-content: space-between; border-radius:0; padding: 0.8rem 0.8rem 0.8rem 2rem; border: none; min-height: 6rem; flex:none; padding-right: 5rem;}
     .modal-header h1{font-size:1.6rem; font-weight: 700; display: flex; align-items: center; justify-content: flex-start; line-height: 120%; font-weight: bold; color: #fff;}
     .modal-header h1 span{font-size: 2.4rem; font-weight: 600; margin-right: 0.5rem;}
-    .modal-body{border: none; padding: 2rem; padding-right: 0; outline: none; border-radius: 0; font-size: 1.2rem; display: flex;  flex: 1; overflow-y: auto;}
+    .modal-body{border: none; padding: 2rem; padding-right: 0; outline: none; border-radius: 0; font-size: 1.4rem; display: flex;  flex: 1; overflow-y: auto;}
     .modal-body textarea{width: 100%; border: .1rem solid #ddd; border-radius: .4rem; padding: 1rem; height: 12rem;}
     .modal-footer{border-top: none; justify-content:center; padding: 0.8rem;}
     .modal-scroll-con{overflow-y: auto; height: auto; padding-right: 2rem;  flex: 1 ; }
@@ -1158,9 +1158,9 @@ footer{background-color: #2A2C31; color: #fff;}
     .business-text:after{width: 7rem;}
     .gray-tab{margin-top: 4rem; display: flex; margin-bottom: 4rem;  flex-wrap: wrap;}
     .gray-tab li{width:33.33%;}
-    .gray-tab li a{display: flex; align-items: center; justify-content: center; font-size: 1.4rem; background-color:#ECECEC; height:auto; min-height: 6.4rem; position: relative; flex-wrap: wrap;}
+    .gray-tab li a{display: flex; align-items: center; justify-content: center; font-size: 1.4rem; background-color:#ECECEC; height:auto; min-height: 6.4rem; position: relative; flex-wrap: wrap; position: relative;}
     .gray-tab.tab-s li a{padding: 0.8rem 0; min-height: 0;}
-    .gray-tab li a:before{content: ""; display: block; width: 1px; height:3rem; background-color: #ddd; position: absolute; right: 0; top: 0.5rem;}
+    .gray-tab li a:before{content: ""; display: block; width: 1px; height:3rem; background-color: #ddd; position: absolute; right: 0; top: 1.5rem;}
     .gray-tab li:last-child a:before{display: none;}
     .gray-tab li.active a{color: #fff; background: #2F436B;}
     .gray-tab li.active a::before{display: none;}
@@ -1247,3 +1247,43 @@ footer{background-color: #2A2C31; color: #fff;}
 
 .login-step li.active{background-color: #3F75CC ;}
 .login-step li.active::after{background: url(../img/ico-join-active-01.svg) no-repeat; width: 2rem;}
+
+.step-block .swiper-slide a{display: flex; border: 1px solid #E2E2E2;
+    border-radius: 2.2rem; background-color: #fff; flex-direction: column; align-items: center; justify-content: flex-start; width: 22rem; height: 16.7rem; font-size: 1.6rem; padding-left: 3rem; padding-right: 3rem; padding-top: 2.2rem;}
+.step-block .swiper-slide a .step-digital{display: flex; width: 5.6rem; height: 5.6rem; margin-bottom: 1.5rem; }
+.step-block .swiper-slide a .step-digital.step-01{background: url(../img/ico-digital-01.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a .step-digital.step-02{background: url(../img/ico-digital-02.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a .step-digital.step-03{background: url(../img/ico-digital-03.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a .step-digital.step-04{background: url(../img/ico-digital-04.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a .step-digital.step-05{background: url(../img/ico-digital-05.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a.active{background-color: #003994; color: #fff; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);}
+.step-block .swiper-slide a.active .step-digital.step-01{background: url(../img/ico-digital-01-on.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a.active .step-digital.step-02{background: url(../img/ico-digital-02-on.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a.active .step-digital.step-03{background: url(../img/ico-digital-03-on.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a.active .step-digital.step-04{background: url(../img/ico-digital-04-on.svg) no-repeat 50% 50%; background-size: 100% auto;}
+.step-block .swiper-slide a.active .step-digital.step-05{background: url(../img/ico-digital-05-on.svg) no-repeat 50% 50%; background-size: 100% auto;}
+
+.step-block .swiper-slide a p.round{text-align: center; line-height: 2.6rem;}
+.step-block .swiper-slide a.active p.round span{background-color: #fff; color: #000;}
+.step-block .swiper-slide a p.round span{ display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; color: #fff; background-color: #333; border-radius: 50%; margin-right: 0.5rem; font-size: 1.4rem; font-weight: normal;}
+.step-block .swiper-slide:after{ top: 50%; transform:translateY(-50%); right: -2.3rem;}
+
+.btn-full-line{display: flex; justify-content: space-between; width: 100%; flex-wrap: wrap;}
+.btn-full-line .btn{width: 49.5%;}
+.up-info{display: flex; flex-wrap: wrap;}
+.up-info li{width: 20%;}
+.btn-center-two{display: flex; justify-content: center; align-items: center; width: 100%; flex-wrap: wrap;}
+.btn-center-two a{margin: 0 0.5rem !important;}
+@media (max-width: 600px) {
+    .btn-full-line .btn{width:100%; margin-bottom: 1rem; text-align: center;}
+    .up-info li{width: 50%;}
+    .btn-center-two a{margin: 0!important; margin-bottom: 1rem !important;}
+}
+
+.pop-btn {display: flex; flex-wrap: wrap;  width: 100%;}
+.pop-btn a{margin: 0.5%; text-align: center; flex: none; width: 24%;}
+.pop-btn a.active{background: #003994; color: #fff; border: none;}
+@media (max-width: 600px) {
+    .pop-btn a{text-align: center; flex: none; width: 49%;}
+}
+
