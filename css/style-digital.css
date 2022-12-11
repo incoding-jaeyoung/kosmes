@@ -1278,6 +1278,27 @@ footer{background-color: #2A2C31; color: #fff;}
     .btn-full-line .btn{width:100%; margin-bottom: 1rem; text-align: center;}
     .up-info li{width: 50%;}
     .btn-center-two a{margin: 0!important; margin-bottom: 1rem !important;}
+    .step-block .swiper-slide{width: 100%;}
+    .step-block .swiper-slide a{display: flex; border: 1px solid #E2E2E2;
+        border-radius: 2.2rem; background-color: #fff; flex-direction: column; align-items: center; justify-content:center; width: 100%; height: 11.5rem; font-size: 1.6rem; padding-left: 0rem; padding-right: 0rem; padding-top: 0rem;}
+    .step-block .swiper-slide a .step-digital{display: flex; width: 4.8em; height: 4.8rem; margin-bottom: 0.8rem; }
+    .step-block .swiper-slide a .step-digital.step-01{background: url(../img/ico-digital-01.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a .step-digital.step-02{background: url(../img/ico-digital-02.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a .step-digital.step-03{background: url(../img/ico-digital-03.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a .step-digital.step-04{background: url(../img/ico-digital-04.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a .step-digital.step-05{background: url(../img/ico-digital-05.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a.active{background-color: #003994; color: #fff; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);}
+    .step-block .swiper-slide a.active .step-digital.step-01{background: url(../img/ico-digital-01-on.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a.active .step-digital.step-02{background: url(../img/ico-digital-02-on.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a.active .step-digital.step-03{background: url(../img/ico-digital-03-on.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a.active .step-digital.step-04{background: url(../img/ico-digital-04-on.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    .step-block .swiper-slide a.active .step-digital.step-05{background: url(../img/ico-digital-05-on.svg) no-repeat 50% 50%; background-size: 4.8rem auto;}
+    
+    .step-block .swiper-slide a p.round{text-align: center; line-height: 2.6rem;}
+    .step-block .swiper-slide a.active p.round span{background-color: #fff; color: #000;}
+    .step-block .swiper-slide a p.round span{ display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; color: #fff; background-color: #333; border-radius: 50%; margin-right: 0.5rem; font-size: 1.4rem; font-weight: normal;}
+    .step-block .swiper-slide:after{display: none;}
+
 }
 
 .pop-btn {display: flex; flex-wrap: wrap;  width: 100%;}
